@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Automation Tool</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <span class="logo-icon">📱</span>
+                Instagram Automation
+            </div>
+            <div class="navbar-menu">
+                <button class="nav-btn active" data-page="campaigns">Campaigns</button>
+                <button class="nav-btn" data-page="settings">Settings</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Campaigns Page -->
+        <div id="campaigns-page" class="page active">
+            <div class="page-header">
+                <h1>Campaigns</h1>
+                <button id="add-campaign-btn" class="btn btn-primary">+ Add Campaign</button>
+            </div>
+
+            <div id="campaigns-list" class="campaigns-grid">
+                <div class="loading">Loading campaigns...</div>
+            </div>
+
+            <!-- Add/Edit Campaign Modal -->
+            <div id="campaign-modal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 id="modal-title">Add Campaign</h2>
+                        <button class="modal-close">&times;</button>
+                    </div>
+
+                    <form id="campaign-form" class="form">
+                        <input type="hidden" id="campaign-id" value="">
+
+                        <div class="form-group">
+                            <label for="post-id">Instagram Post ID *</label>
+                            <input type="text" id="post-id" placeholder="e.g., 17999999999999999" required>
+                            <small>Find your post ID using Instagram Graph API Explorer or check the URL</small>
+                        </div>
+
+                        <div id="post-preview" class="post-preview hidden">
+                            <img id="post-image" src="" alt="Post preview">
+                            <div id="post-info">
+                                <p id="post-caption"></p>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="keywords">Keywords (comma-separated) *</label>
+                            <input type="text" id="keywords" placeholder="e.g., promo, discount, offer" required>
+                            <small>Comments containing these keywords (case-insensitive) will trigger the automation</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="comment-reply">Comment Reply *</label>
+                            <textarea id="comment-reply" rows="3" placeholder="Public reply to comment..." required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="dm-message">DM Message *</label>
+                            <textarea id="dm-message" rows="3" placeholder="Direct message to send to commenter..." required></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">Save Campaign</button>
+                            <button type="button" class="btn btn-secondary" id="modal-cancel">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Settings Page -->
+        <div id="settings-page" class="page">
+            <div class="page-header">
+                <h1>Settings</h1>
+            </div>
+
+            <div class="settings-container">
+                <div class="settings-section">
+                    <h2>Instagram Configuration</h2>
+                    <p class="section-description">
+                        Connect your Instagram Business Account to enable automation.
+                        <a href="#setup-guide" onclick="showSetupGuide()">View setup guide</a>
+                    </p>
+
+                    <form id="config-form" class="form">
+                        <div class="form-group">
+                            <label for="access-token">Access Token *</label>
+                            <input type="password" id="access-token" placeholder="Paste your long-lived user access token" required>
+                            <small>Keep this secret. Never share with anyone.</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="business-account-id">Business Account ID *</label>
+                            <input type="text" id="business-account-id" placeholder="Your Instagram Business Account ID" required>
+                            <small>Find this in your Instagram app settings or Graph API</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="page-id">Facebook Page ID (Optional)</label>
+                            <input type="text" id="page-id" placeholder="Your Facebook Page ID">
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">Save Configuration</button>
+                            <div id="config-status" class="status-message hidden"></div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="settings-section">
+                    <h2>Setup Guide</h2>
+                    <div id="setup-guide" class="setup-guide">
+                        <h3>Getting Started with Instagram Graph API</h3>
+
+                        <div class="setup-step">
+                            <h4>Step 1: Convert Your Instagram Account</h4>
+                            <ol>
+                                <li>Open Instagram app → Settings → Account</li>
+                                <li>Select "Switch to Professional Account"</li>
+                                <li>Choose "Business" or "Creator"</li>
+                            </ol>
+                        </div>
+
+                        <div class="setup-step">
+                            <h4>Step 2: Create a Facebook Developer App</h4>
+                            <ol>
+                                <li>Go to <a href="https://developers.facebook.com" target="_blank">developers.facebook.com</a></li>
+                                <li>Click "My Apps" → "Create App"</li>
+                                <li>Choose "Business" type</li>
+                                <li>Fill in app details and create</li>
+                            </ol>
+                        </div>
+
+                        <div class="setup-step">
+                            <h4>Step 3: Add Instagram Graph API</h4>
+                            <ol>
+                                <li>In your app dashboard, click "+ Add Product"</li>
+                                <li>Find "Instagram Graph API" and click "Set Up"</li>
+                                <li>Go to Settings → Basic and copy your App ID and App Secret</li>
+                            </ol>
+                        </div>
+
+                        <div class="setup-step">
+                            <h4>Step 4: Generate Long-Lived Access Token</h4>
+                            <ol>
+                                <li>Go to <a href="https://developers.facebook.com/tools/explorer" target="_blank">Graph API Explorer</a></li>
+                                <li>Select your app from the dropdown</li>
+                                <li>Click "Generate Access Token"</li>
+                                <li>Select permissions: <code>instagram_business_basic</code>, <code>instagram_manage_comments</code>, <code>instagram_manage_messages</code></li>
+                                <li>Generate a long-lived token (lasts 60 days)</li>
+                            </ol>
+                        </div>
+
+                        <div class="setup-step">
+                            <h4>Step 5: Get Your Business Account ID</h4>
+                            <ol>
+                                <li>In Graph API Explorer, run this query:
+                                    <code>me/ig_user_id</code>
+                                </li>
+                                <li>Copy the <code>id</code> from the response</li>
+                            </ol>
+                        </div>
+
+                        <div class="setup-step">
+                            <h4>Step 6: Configure Webhook (Optional)</h4>
+                            <p>To receive real-time comment notifications:</p>
+                            <ol>
+                                <li>In app settings, go to Products → Instagram Graph API → Webhooks</li>
+                                <li>Click "Edit Subscriptions"</li>
+                                <li>Set Callback URL to: <code id="webhook-url">https://yourapp.com/webhook/instagram</code></li>
+                                <li>Set Verify Token to a secure random string</li>
+                                <li>Subscribe to: <code>comments</code>, <code>messages</code></li>
+                            </ol>
+                        </div>
+
+                        <div class="setup-note">
+                            <strong>⚠️ Important Notes:</strong>
+                            <ul>
+                                <li>Access tokens expire after 60 days. Generate a new one regularly.</li>
+                                <li>DMs require either: (a) user previously messaged the business, or (b) approved <code>instagram_manage_messages</code> permission.</li>
+                                <li>Keep your access token secure. Never commit it to version control.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
