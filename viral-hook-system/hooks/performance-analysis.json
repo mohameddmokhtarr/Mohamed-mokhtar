@@ -1,0 +1,929 @@
+{
+  "youtube-competitor2": {
+    "total_videos": 50,
+    "outlier_count": 1,
+    "outlier_rate": 0.02,
+    "outliers": [
+      {
+        "post_id": "youtube-@competitor2-49",
+        "platform": "youtube",
+        "views": 334362,
+        "local_median": 143792,
+        "multiplier": 2.3253171247357294,
+        "hook_type": "mistake_based"
+      }
+    ],
+    "performance_by_type": {
+      "storytelling": {
+        "count": 4,
+        "avg_views": 249388,
+        "avg_likes": 15450,
+        "avg_comments": 4938,
+        "avg_engagement": 249388
+      },
+      "direct_benefit": {
+        "count": 7,
+        "avg_views": 320922,
+        "avg_likes": 22744,
+        "avg_comments": 10791,
+        "avg_engagement": 320922
+      },
+      "authority": {
+        "count": 7,
+        "avg_views": 318519,
+        "avg_likes": 19417,
+        "avg_comments": 5116,
+        "avg_engagement": 318519
+      },
+      "comparison": {
+        "count": 6,
+        "avg_views": 218162,
+        "avg_likes": 23891,
+        "avg_comments": 3842,
+        "avg_engagement": 218162
+      },
+      "curiosity": {
+        "count": 3,
+        "avg_views": 161646,
+        "avg_likes": 12501,
+        "avg_comments": 5339,
+        "avg_engagement": 161646
+      },
+      "fear": {
+        "count": 3,
+        "avg_views": 70945,
+        "avg_likes": 6319,
+        "avg_comments": 2242,
+        "avg_engagement": 70945
+      },
+      "contrarian": {
+        "count": 6,
+        "avg_views": 299158,
+        "avg_likes": 24945,
+        "avg_comments": 6055,
+        "avg_engagement": 299158
+      },
+      "mistake_based": {
+        "count": 6,
+        "avg_views": 267000,
+        "avg_likes": 23410,
+        "avg_comments": 9404,
+        "avg_engagement": 267000
+      },
+      "shock": {
+        "count": 5,
+        "avg_views": 259749,
+        "avg_likes": 14856,
+        "avg_comments": 7145,
+        "avg_engagement": 259749
+      },
+      "aspiration": {
+        "count": 3,
+        "avg_views": 250412,
+        "avg_likes": 28707,
+        "avg_comments": 8711,
+        "avg_engagement": 250412
+      }
+    }
+  },
+  "youtube-myhandle": {
+    "total_videos": 50,
+    "outlier_count": 1,
+    "outlier_rate": 0.02,
+    "outliers": [
+      {
+        "post_id": "youtube-@myhandle-33",
+        "platform": "youtube",
+        "views": 416101,
+        "local_median": 194377,
+        "multiplier": 2.1406905137953562,
+        "hook_type": "shock"
+      }
+    ],
+    "performance_by_type": {
+      "direct_benefit": {
+        "count": 7,
+        "avg_views": 295977,
+        "avg_likes": 22134,
+        "avg_comments": 5985,
+        "avg_engagement": 295977
+      },
+      "curiosity": {
+        "count": 7,
+        "avg_views": 261985,
+        "avg_likes": 26784,
+        "avg_comments": 6729,
+        "avg_engagement": 261985
+      },
+      "comparison": {
+        "count": 5,
+        "avg_views": 313549,
+        "avg_likes": 36339,
+        "avg_comments": 7667,
+        "avg_engagement": 313549
+      },
+      "fear": {
+        "count": 3,
+        "avg_views": 286582,
+        "avg_likes": 34168,
+        "avg_comments": 8672,
+        "avg_engagement": 286582
+      },
+      "contrarian": {
+        "count": 8,
+        "avg_views": 194212,
+        "avg_likes": 15953,
+        "avg_comments": 4353,
+        "avg_engagement": 194212
+      },
+      "authority": {
+        "count": 3,
+        "avg_views": 193265,
+        "avg_likes": 19470,
+        "avg_comments": 4058,
+        "avg_engagement": 193265
+      },
+      "aspiration": {
+        "count": 3,
+        "avg_views": 87021,
+        "avg_likes": 10661,
+        "avg_comments": 3283,
+        "avg_engagement": 87021
+      },
+      "mistake_based": {
+        "count": 6,
+        "avg_views": 244732,
+        "avg_likes": 12809,
+        "avg_comments": 5420,
+        "avg_engagement": 244732
+      },
+      "shock": {
+        "count": 6,
+        "avg_views": 323561,
+        "avg_likes": 23736,
+        "avg_comments": 9983,
+        "avg_engagement": 323561
+      },
+      "storytelling": {
+        "count": 2,
+        "avg_views": 288724,
+        "avg_likes": 33386,
+        "avg_comments": 1734,
+        "avg_engagement": 288724
+      }
+    }
+  },
+  "youtube-competitor1": {
+    "total_videos": 50,
+    "outlier_count": 8,
+    "outlier_rate": 0.16,
+    "outliers": [
+      {
+        "post_id": "youtube-@competitor1-13",
+        "platform": "youtube",
+        "views": 461728,
+        "local_median": 193619,
+        "multiplier": 2.384724639627309,
+        "hook_type": "authority"
+      },
+      {
+        "post_id": "youtube-@competitor1-25",
+        "platform": "youtube",
+        "views": 247446,
+        "local_median": 87376,
+        "multiplier": 2.8319675883537814,
+        "hook_type": "contrarian"
+      },
+      {
+        "post_id": "youtube-@competitor1-31",
+        "platform": "youtube",
+        "views": 227495,
+        "local_median": 76048,
+        "multiplier": 2.9914659162634125,
+        "hook_type": "mistake_based"
+      },
+      {
+        "post_id": "youtube-@competitor1-41",
+        "platform": "youtube",
+        "views": 462918,
+        "local_median": 88867,
+        "multiplier": 5.209110243397436,
+        "hook_type": "mistake_based"
+      },
+      {
+        "post_id": "youtube-@competitor1-30",
+        "platform": "youtube",
+        "views": 486087,
+        "local_median": 87376,
+        "multiplier": 5.563163797839223,
+        "hook_type": "mistake_based"
+      },
+      {
+        "post_id": "youtube-@competitor1-43",
+        "platform": "youtube",
+        "views": 380185,
+        "local_median": 168216,
+        "multiplier": 2.260100109383174,
+        "hook_type": "direct_benefit"
+      },
+      {
+        "post_id": "youtube-@competitor1-6",
+        "platform": "youtube",
+        "views": 352878,
+        "local_median": 168216,
+        "multiplier": 2.0977671565130547,
+        "hook_type": "authority"
+      },
+      {
+        "post_id": "youtube-@competitor1-44",
+        "platform": "youtube",
+        "views": 496229,
+        "local_median": 234650,
+        "multiplier": 2.1147624121031323,
+        "hook_type": "contrarian"
+      }
+    ],
+    "performance_by_type": {
+      "storytelling": {
+        "count": 4,
+        "avg_views": 200128,
+        "avg_likes": 13177,
+        "avg_comments": 3454,
+        "avg_engagement": 200128
+      },
+      "comparison": {
+        "count": 4,
+        "avg_views": 219885,
+        "avg_likes": 11364,
+        "avg_comments": 7433,
+        "avg_engagement": 219885
+      },
+      "shock": {
+        "count": 8,
+        "avg_views": 229127,
+        "avg_likes": 15555,
+        "avg_comments": 5745,
+        "avg_engagement": 229127
+      },
+      "curiosity": {
+        "count": 6,
+        "avg_views": 127942,
+        "avg_likes": 14484,
+        "avg_comments": 1800,
+        "avg_engagement": 127942
+      },
+      "authority": {
+        "count": 4,
+        "avg_views": 368121,
+        "avg_likes": 29950,
+        "avg_comments": 12163,
+        "avg_engagement": 368121
+      },
+      "aspiration": {
+        "count": 5,
+        "avg_views": 151332,
+        "avg_likes": 6452,
+        "avg_comments": 4864,
+        "avg_engagement": 151332
+      },
+      "contrarian": {
+        "count": 7,
+        "avg_views": 266360,
+        "avg_likes": 26464,
+        "avg_comments": 5896,
+        "avg_engagement": 266360
+      },
+      "mistake_based": {
+        "count": 7,
+        "avg_views": 328151,
+        "avg_likes": 25084,
+        "avg_comments": 13075,
+        "avg_engagement": 328151
+      },
+      "fear": {
+        "count": 4,
+        "avg_views": 195993,
+        "avg_likes": 17571,
+        "avg_comments": 6115,
+        "avg_engagement": 195993
+      },
+      "direct_benefit": {
+        "count": 1,
+        "avg_views": 380185,
+        "avg_likes": 12954,
+        "avg_comments": 573,
+        "avg_engagement": 380185
+      }
+    }
+  },
+  "tiktok-competitor1": {
+    "total_videos": 50,
+    "outlier_count": 5,
+    "outlier_rate": 0.1,
+    "outliers": [
+      {
+        "post_id": "tiktok-@competitor1-34",
+        "platform": "tiktok",
+        "views": 463347,
+        "local_median": 219368,
+        "multiplier": 2.1121904744538855,
+        "hook_type": "curiosity"
+      },
+      {
+        "post_id": "tiktok-@competitor1-17",
+        "platform": "tiktok",
+        "views": 435851,
+        "local_median": 216099,
+        "multiplier": 2.016904289237803,
+        "hook_type": "authority"
+      },
+      {
+        "post_id": "tiktok-@competitor1-39",
+        "platform": "tiktok",
+        "views": 486930,
+        "local_median": 142397,
+        "multiplier": 3.419524287730781,
+        "hook_type": "authority"
+      },
+      {
+        "post_id": "tiktok-@competitor1-6",
+        "platform": "tiktok",
+        "views": 386619,
+        "local_median": 158377.0,
+        "multiplier": 2.4411309723002708,
+        "hook_type": "comparison"
+      },
+      {
+        "post_id": "tiktok-@competitor1-26",
+        "platform": "tiktok",
+        "views": 486411,
+        "local_median": 142397,
+        "multiplier": 3.415879548024186,
+        "hook_type": "curiosity"
+      }
+    ],
+    "performance_by_type": {
+      "authority": {
+        "count": 7,
+        "avg_views": 252029,
+        "avg_likes": 24113,
+        "avg_comments": 6060,
+        "avg_engagement": 252029
+      },
+      "fear": {
+        "count": 4,
+        "avg_views": 182697,
+        "avg_likes": 5461,
+        "avg_comments": 3675,
+        "avg_engagement": 182697
+      },
+      "contrarian": {
+        "count": 5,
+        "avg_views": 228757,
+        "avg_likes": 18370,
+        "avg_comments": 5812,
+        "avg_engagement": 228757
+      },
+      "comparison": {
+        "count": 7,
+        "avg_views": 254468,
+        "avg_likes": 21712,
+        "avg_comments": 8893,
+        "avg_engagement": 254468
+      },
+      "mistake_based": {
+        "count": 4,
+        "avg_views": 252544,
+        "avg_likes": 30849,
+        "avg_comments": 6885,
+        "avg_engagement": 252544
+      },
+      "aspiration": {
+        "count": 4,
+        "avg_views": 310676,
+        "avg_likes": 15153,
+        "avg_comments": 8253,
+        "avg_engagement": 310676
+      },
+      "storytelling": {
+        "count": 4,
+        "avg_views": 270466,
+        "avg_likes": 21821,
+        "avg_comments": 6144,
+        "avg_engagement": 270466
+      },
+      "shock": {
+        "count": 4,
+        "avg_views": 307420,
+        "avg_likes": 26787,
+        "avg_comments": 5632,
+        "avg_engagement": 307420
+      },
+      "direct_benefit": {
+        "count": 6,
+        "avg_views": 185732,
+        "avg_likes": 22726,
+        "avg_comments": 7059,
+        "avg_engagement": 185732
+      },
+      "curiosity": {
+        "count": 5,
+        "avg_views": 373053,
+        "avg_likes": 18258,
+        "avg_comments": 5468,
+        "avg_engagement": 373053
+      }
+    }
+  },
+  "tiktok-myhandle": {
+    "total_videos": 50,
+    "outlier_count": 3,
+    "outlier_rate": 0.06,
+    "outliers": [
+      {
+        "post_id": "tiktok-@myhandle-46",
+        "platform": "tiktok",
+        "views": 449796,
+        "local_median": 212198,
+        "multiplier": 2.119699525914476,
+        "hook_type": "direct_benefit"
+      },
+      {
+        "post_id": "tiktok-@myhandle-6",
+        "platform": "tiktok",
+        "views": 458817,
+        "local_median": 197382.5,
+        "multiplier": 2.3245069851683913,
+        "hook_type": "comparison"
+      },
+      {
+        "post_id": "tiktok-@myhandle-9",
+        "platform": "tiktok",
+        "views": 453801,
+        "local_median": 200481,
+        "multiplier": 2.2635611354691965,
+        "hook_type": "shock"
+      }
+    ],
+    "performance_by_type": {
+      "direct_benefit": {
+        "count": 5,
+        "avg_views": 336194,
+        "avg_likes": 24460,
+        "avg_comments": 11397,
+        "avg_engagement": 336194
+      },
+      "fear": {
+        "count": 7,
+        "avg_views": 242895,
+        "avg_likes": 18869,
+        "avg_comments": 8021,
+        "avg_engagement": 242895
+      },
+      "mistake_based": {
+        "count": 9,
+        "avg_views": 296186,
+        "avg_likes": 17709,
+        "avg_comments": 10166,
+        "avg_engagement": 296186
+      },
+      "comparison": {
+        "count": 3,
+        "avg_views": 432754,
+        "avg_likes": 21747,
+        "avg_comments": 10103,
+        "avg_engagement": 432754
+      },
+      "curiosity": {
+        "count": 9,
+        "avg_views": 269034,
+        "avg_likes": 21995,
+        "avg_comments": 7757,
+        "avg_engagement": 269034
+      },
+      "shock": {
+        "count": 5,
+        "avg_views": 283320,
+        "avg_likes": 23250,
+        "avg_comments": 9125,
+        "avg_engagement": 283320
+      },
+      "contrarian": {
+        "count": 3,
+        "avg_views": 251342,
+        "avg_likes": 14081,
+        "avg_comments": 5104,
+        "avg_engagement": 251342
+      },
+      "storytelling": {
+        "count": 3,
+        "avg_views": 148427,
+        "avg_likes": 18050,
+        "avg_comments": 3679,
+        "avg_engagement": 148427
+      },
+      "aspiration": {
+        "count": 4,
+        "avg_views": 191055,
+        "avg_likes": 16278,
+        "avg_comments": 6308,
+        "avg_engagement": 191055
+      },
+      "authority": {
+        "count": 2,
+        "avg_views": 256068,
+        "avg_likes": 28539,
+        "avg_comments": 7908,
+        "avg_engagement": 256068
+      }
+    }
+  },
+  "instagram-competitor1": {
+    "total_videos": 50,
+    "outlier_count": 2,
+    "outlier_rate": 0.04,
+    "outliers": [
+      {
+        "post_id": "instagram-@competitor1-14",
+        "platform": "instagram",
+        "views": 485921,
+        "local_median": 230022,
+        "multiplier": 2.1124979349801323,
+        "hook_type": "direct_benefit"
+      },
+      {
+        "post_id": "instagram-@competitor1-22",
+        "platform": "instagram",
+        "views": 483305,
+        "local_median": 216486.5,
+        "multiplier": 2.232494866885464,
+        "hook_type": "direct_benefit"
+      }
+    ],
+    "performance_by_type": {
+      "direct_benefit": {
+        "count": 7,
+        "avg_views": 257868,
+        "avg_likes": 24883,
+        "avg_comments": 6935,
+        "avg_engagement": 257868
+      },
+      "comparison": {
+        "count": 7,
+        "avg_views": 206405,
+        "avg_likes": 16831,
+        "avg_comments": 5653,
+        "avg_engagement": 206405
+      },
+      "storytelling": {
+        "count": 5,
+        "avg_views": 225100,
+        "avg_likes": 16249,
+        "avg_comments": 7095,
+        "avg_engagement": 225100
+      },
+      "authority": {
+        "count": 3,
+        "avg_views": 272743,
+        "avg_likes": 22894,
+        "avg_comments": 6452,
+        "avg_engagement": 272743
+      },
+      "shock": {
+        "count": 3,
+        "avg_views": 373183,
+        "avg_likes": 37888,
+        "avg_comments": 14495,
+        "avg_engagement": 373183
+      },
+      "fear": {
+        "count": 3,
+        "avg_views": 232541,
+        "avg_likes": 17073,
+        "avg_comments": 6874,
+        "avg_engagement": 232541
+      },
+      "aspiration": {
+        "count": 5,
+        "avg_views": 294891,
+        "avg_likes": 28596,
+        "avg_comments": 4175,
+        "avg_engagement": 294891
+      },
+      "curiosity": {
+        "count": 6,
+        "avg_views": 216299,
+        "avg_likes": 15915,
+        "avg_comments": 3865,
+        "avg_engagement": 216299
+      },
+      "contrarian": {
+        "count": 8,
+        "avg_views": 241876,
+        "avg_likes": 20268,
+        "avg_comments": 8469,
+        "avg_engagement": 241876
+      },
+      "mistake_based": {
+        "count": 3,
+        "avg_views": 289771,
+        "avg_likes": 26698,
+        "avg_comments": 7419,
+        "avg_engagement": 289771
+      }
+    }
+  },
+  "instagram-competitor2": {
+    "total_videos": 50,
+    "outlier_count": 3,
+    "outlier_rate": 0.06,
+    "outliers": [
+      {
+        "post_id": "instagram-@competitor2-20",
+        "platform": "instagram",
+        "views": 491249,
+        "local_median": 196633,
+        "multiplier": 2.49830394694685,
+        "hook_type": "authority"
+      },
+      {
+        "post_id": "instagram-@competitor2-2",
+        "platform": "instagram",
+        "views": 371772,
+        "local_median": 183255,
+        "multiplier": 2.028714086928051,
+        "hook_type": "authority"
+      },
+      {
+        "post_id": "instagram-@competitor2-0",
+        "platform": "instagram",
+        "views": 455527,
+        "local_median": 183255,
+        "multiplier": 2.4857548225150747,
+        "hook_type": "authority"
+      }
+    ],
+    "performance_by_type": {
+      "authority": {
+        "count": 6,
+        "avg_views": 339853,
+        "avg_likes": 28782,
+        "avg_comments": 5799,
+        "avg_engagement": 339853
+      },
+      "direct_benefit": {
+        "count": 6,
+        "avg_views": 207417,
+        "avg_likes": 19934,
+        "avg_comments": 7580,
+        "avg_engagement": 207417
+      },
+      "fear": {
+        "count": 6,
+        "avg_views": 182120,
+        "avg_likes": 19169,
+        "avg_comments": 4119,
+        "avg_engagement": 182120
+      },
+      "comparison": {
+        "count": 6,
+        "avg_views": 330888,
+        "avg_likes": 28732,
+        "avg_comments": 9469,
+        "avg_engagement": 330888
+      },
+      "mistake_based": {
+        "count": 3,
+        "avg_views": 281192,
+        "avg_likes": 19437,
+        "avg_comments": 5273,
+        "avg_engagement": 281192
+      },
+      "aspiration": {
+        "count": 6,
+        "avg_views": 223297,
+        "avg_likes": 20525,
+        "avg_comments": 6573,
+        "avg_engagement": 223297
+      },
+      "shock": {
+        "count": 4,
+        "avg_views": 261564,
+        "avg_likes": 23651,
+        "avg_comments": 5123,
+        "avg_engagement": 261564
+      },
+      "curiosity": {
+        "count": 4,
+        "avg_views": 238418,
+        "avg_likes": 27417,
+        "avg_comments": 3441,
+        "avg_engagement": 238418
+      },
+      "storytelling": {
+        "count": 6,
+        "avg_views": 254758,
+        "avg_likes": 19660,
+        "avg_comments": 7065,
+        "avg_engagement": 254758
+      },
+      "contrarian": {
+        "count": 3,
+        "avg_views": 239010,
+        "avg_likes": 24732,
+        "avg_comments": 6364,
+        "avg_engagement": 239010
+      }
+    }
+  },
+  "tiktok-competitor2": {
+    "total_videos": 50,
+    "outlier_count": 1,
+    "outlier_rate": 0.02,
+    "outliers": [
+      {
+        "post_id": "tiktok-@competitor2-2",
+        "platform": "tiktok",
+        "views": 478569,
+        "local_median": 210705,
+        "multiplier": 2.2712750053392186,
+        "hook_type": "fear"
+      }
+    ],
+    "performance_by_type": {
+      "authority": {
+        "count": 3,
+        "avg_views": 193091,
+        "avg_likes": 6879,
+        "avg_comments": 6671,
+        "avg_engagement": 193091
+      },
+      "storytelling": {
+        "count": 5,
+        "avg_views": 215273,
+        "avg_likes": 22429,
+        "avg_comments": 2887,
+        "avg_engagement": 215273
+      },
+      "fear": {
+        "count": 6,
+        "avg_views": 274563,
+        "avg_likes": 22548,
+        "avg_comments": 8054,
+        "avg_engagement": 274563
+      },
+      "comparison": {
+        "count": 8,
+        "avg_views": 313024,
+        "avg_likes": 24111,
+        "avg_comments": 4706,
+        "avg_engagement": 313024
+      },
+      "curiosity": {
+        "count": 3,
+        "avg_views": 233932,
+        "avg_likes": 10347,
+        "avg_comments": 2864,
+        "avg_engagement": 233932
+      },
+      "contrarian": {
+        "count": 7,
+        "avg_views": 243949,
+        "avg_likes": 17377,
+        "avg_comments": 5579,
+        "avg_engagement": 243949
+      },
+      "shock": {
+        "count": 5,
+        "avg_views": 291316,
+        "avg_likes": 26741,
+        "avg_comments": 8537,
+        "avg_engagement": 291316
+      },
+      "aspiration": {
+        "count": 4,
+        "avg_views": 199469,
+        "avg_likes": 14732,
+        "avg_comments": 7175,
+        "avg_engagement": 199469
+      },
+      "mistake_based": {
+        "count": 7,
+        "avg_views": 335040,
+        "avg_likes": 32639,
+        "avg_comments": 8215,
+        "avg_engagement": 335040
+      },
+      "direct_benefit": {
+        "count": 2,
+        "avg_views": 274934,
+        "avg_likes": 35414,
+        "avg_comments": 10924,
+        "avg_engagement": 274934
+      }
+    }
+  },
+  "instagram-myhandle": {
+    "total_videos": 50,
+    "outlier_count": 3,
+    "outlier_rate": 0.06,
+    "outliers": [
+      {
+        "post_id": "instagram-@myhandle-46",
+        "platform": "instagram",
+        "views": 385567,
+        "local_median": 143012,
+        "multiplier": 2.696046485609599,
+        "hook_type": "comparison"
+      },
+      {
+        "post_id": "instagram-@myhandle-37",
+        "platform": "instagram",
+        "views": 339637,
+        "local_median": 103897,
+        "multiplier": 3.268977930065353,
+        "hook_type": "comparison"
+      },
+      {
+        "post_id": "instagram-@myhandle-31",
+        "platform": "instagram",
+        "views": 258425,
+        "local_median": 103897,
+        "multiplier": 2.4873191718721426,
+        "hook_type": "storytelling"
+      }
+    ],
+    "performance_by_type": {
+      "mistake_based": {
+        "count": 5,
+        "avg_views": 298078,
+        "avg_likes": 14138,
+        "avg_comments": 9363,
+        "avg_engagement": 298078
+      },
+      "fear": {
+        "count": 5,
+        "avg_views": 83882,
+        "avg_likes": 8768,
+        "avg_comments": 2332,
+        "avg_engagement": 83882
+      },
+      "authority": {
+        "count": 7,
+        "avg_views": 327156,
+        "avg_likes": 18473,
+        "avg_comments": 11415,
+        "avg_engagement": 327156
+      },
+      "curiosity": {
+        "count": 4,
+        "avg_views": 307248,
+        "avg_likes": 18816,
+        "avg_comments": 13512,
+        "avg_engagement": 307248
+      },
+      "contrarian": {
+        "count": 4,
+        "avg_views": 255970,
+        "avg_likes": 28214,
+        "avg_comments": 8419,
+        "avg_engagement": 255970
+      },
+      "shock": {
+        "count": 2,
+        "avg_views": 145826,
+        "avg_likes": 14138,
+        "avg_comments": 4492,
+        "avg_engagement": 145826
+      },
+      "aspiration": {
+        "count": 6,
+        "avg_views": 225439,
+        "avg_likes": 11190,
+        "avg_comments": 5104,
+        "avg_engagement": 225439
+      },
+      "direct_benefit": {
+        "count": 2,
+        "avg_views": 150946,
+        "avg_likes": 6603,
+        "avg_comments": 3898,
+        "avg_engagement": 150946
+      },
+      "comparison": {
+        "count": 10,
+        "avg_views": 282147,
+        "avg_likes": 25043,
+        "avg_comments": 8117,
+        "avg_engagement": 282147
+      },
+      "storytelling": {
+        "count": 5,
+        "avg_views": 225542,
+        "avg_likes": 20056,
+        "avg_comments": 5891,
+        "avg_engagement": 225542
+      }
+    }
+  }
+}

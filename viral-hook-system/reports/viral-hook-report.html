@@ -1,0 +1,1235 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viral Hook Intelligence Report</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+            border-left: 4px solid #667eea;
+            padding-left: 30px;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+
+        .section h3 {
+            font-size: 1.5em;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            color: #764ba2;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+
+        .card h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .metric {
+            font-size: 2em;
+            color: #764ba2;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .metric-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+
+        .badge-primary {
+            background: #e3f2fd;
+            color: #1976d2;
+        }
+
+        .badge-success {
+            background: #e8f5e9;
+            color: #388e3c;
+        }
+
+        .badge-warning {
+            background: #fff3e0;
+            color: #f57c00;
+        }
+
+        .hook-box {
+            background: #f5f5f5;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 4px solid #667eea;
+            border-radius: 4px;
+        }
+
+        .hook-text {
+            font-size: 1.1em;
+            margin: 10px 0;
+            font-style: italic;
+            color: #333;
+        }
+
+        .hook-meta {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .stat-label {
+            color: #666;
+        }
+
+        .stat-value {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .list-item {
+            margin: 15px 0;
+            padding: 15px;
+            background: #fafafa;
+            border-radius: 6px;
+        }
+
+        .ranking {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .rank-num {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 50%;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .rank-content {
+            flex: 1;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 20px 40px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 Viral Hook Intelligence</h1>
+            <p>Social Media Trend Analysis & Performance Report</p>
+        </div>
+
+        <div class="content">
+            <!-- Executive Summary -->
+            <div class="section">
+                <h2>📊 Executive Summary</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h4>Total Videos Analyzed</h4>
+                        <div class="metric">450</div>
+                    </div>
+                    <div class="card">
+                        <h4>Hook Types Discovered</h4>
+                        <div class="metric">10</div>
+                    </div>
+                    <div class="card">
+                        <h4>Emerging Trends</h4>
+                        <div class="metric">0</div>
+                    </div>
+                    <div class="card">
+                        <h4>Top Hooks Ranked</h4>
+                        <div class="metric">100</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top 20 Performing Hooks -->
+            <div class="section">
+                <h2>🏆 Top 20 Performing Hooks</h2>
+                
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">1</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"This ONE trick changed my entire [field] career"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">contrarian</span>
+                                    <span style="margin-left: 10px;">👁 497757 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">2</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"This [type] method [claim] in just [timeframe]"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">contrarian</span>
+                                    <span style="margin-left: 10px;">👁 496229 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">3</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"How to [achieve goal] in just [timeframe]"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">mistake_based</span>
+                                    <span style="margin-left: 10px;">👁 496134 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">4</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"The biggest mistake people make with [topic]"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">aspiration</span>
+                                    <span style="margin-left: 10px;">👁 495984 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">5</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"⚠️ WARNING: [danger] is more common than you think"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">storytelling</span>
+                                    <span style="margin-left: 10px;">👁 495726 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">6</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"The biggest mistake people make with [topic]"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">comparison</span>
+                                    <span style="margin-left: 10px;">👁 492413 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">7</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"Here's why [successful person] does [habit] every day"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">authority</span>
+                                    <span style="margin-left: 10px;">👁 491249 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">8</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"How to [achieve goal] in just [timeframe]"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">direct_benefit</span>
+                                    <span style="margin-left: 10px;">👁 491038 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">9</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"Watch what happens when you [action] instead of [alternative]"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">authority</span>
+                                    <span style="margin-left: 10px;">👁 489662 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">10</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"How to [achieve goal] in just [timeframe]"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">authority</span>
+                                    <span style="margin-left: 10px;">👁 488916 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">11</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"The biggest mistake people make with [topic]"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">mistake_based</span>
+                                    <span style="margin-left: 10px;">👁 487847 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">12</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"I learned [lesson] the hard way so you don't have to"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">mistake_based</span>
+                                    <span style="margin-left: 10px;">👁 487783 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">13</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"Watch what happens when you [action] instead of [alternative]"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">shock</span>
+                                    <span style="margin-left: 10px;">👁 487113 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">14</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"This ONE trick changed my entire [field] career"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">authority</span>
+                                    <span style="margin-left: 10px;">👁 486930 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">15</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"This [type] method [claim] in just [timeframe]"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">direct_benefit</span>
+                                    <span style="margin-left: 10px;">👁 486781 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">16</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"What if I told you everything you know about [topic] is wrong?"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">curiosity</span>
+                                    <span style="margin-left: 10px;">👁 486411 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">17</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"The biggest mistake people make with [topic]"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">mistake_based</span>
+                                    <span style="margin-left: 10px;">👁 486087 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">18</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"Here's why [successful person] does [habit] every day"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">direct_benefit</span>
+                                    <span style="margin-left: 10px;">👁 485921 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">19</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"⚠️ WARNING: [danger] is more common than you think"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">direct_benefit</span>
+                                    <span style="margin-left: 10px;">👁 483305 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="list-item">
+                        <div class="ranking">
+                            <div class="rank-num">20</div>
+                            <div class="rank-content">
+                                <div class="hook-text">"I learned [lesson] the hard way so you don't have to"</div>
+                                <div class="hook-meta">
+                                    <span class="badge badge-primary">comparison</span>
+                                    <span style="margin-left: 10px;">👁 483213 views</span>
+                                    <span style="margin-left: 10px;">💬 0 engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                
+            </div>
+
+            <!-- Hook Types Performance -->
+            <div class="section">
+                <h2>📈 Hook Type Performance</h2>
+                
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Hook Type</th>
+                                <th>Count</th>
+                                <th>Avg Views</th>
+                                <th>Avg Engagement</th>
+                                <th>Performance Rank</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                                
+                            <tr>
+                                <td><strong>storytelling</strong></td>
+                                <td>38</td>
+                                <td>2077806</td>
+                                <td>2077806</td>
+                                <td>
+                                    
+                                        <span class="badge badge-warning">Below Average</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                                
+                            <tr>
+                                <td><strong>direct_benefit</strong></td>
+                                <td>43</td>
+                                <td>2410175</td>
+                                <td>2410175</td>
+                                <td>
+                                    
+                                        <span class="badge badge-success">Above Average</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                                
+                            <tr>
+                                <td><strong>authority</strong></td>
+                                <td>42</td>
+                                <td>2520845</td>
+                                <td>2520845</td>
+                                <td>
+                                    
+                                        <span class="badge badge-success">Above Average</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                                
+                            <tr>
+                                <td><strong>comparison</strong></td>
+                                <td>56</td>
+                                <td>2571282</td>
+                                <td>2571282</td>
+                                <td>
+                                    
+                                        <span class="badge badge-success">Above Average</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                                
+                            <tr>
+                                <td><strong>curiosity</strong></td>
+                                <td>47</td>
+                                <td>2189557</td>
+                                <td>2189557</td>
+                                <td>
+                                    
+                                        <span class="badge badge-warning">Below Average</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                                
+                            <tr>
+                                <td><strong>fear</strong></td>
+                                <td>41</td>
+                                <td>1752218</td>
+                                <td>1752218</td>
+                                <td>
+                                    
+                                        <span class="badge badge-warning">Below Average</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                                
+                            <tr>
+                                <td><strong>contrarian</strong></td>
+                                <td>51</td>
+                                <td>2220634</td>
+                                <td>2220634</td>
+                                <td>
+                                    
+                                        <span class="badge badge-warning">Below Average</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                                
+                            <tr>
+                                <td><strong>mistake_based</strong></td>
+                                <td>50</td>
+                                <td>2592694</td>
+                                <td>2592694</td>
+                                <td>
+                                    
+                                        <span class="badge badge-success">Above Average</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                                
+                            <tr>
+                                <td><strong>shock</strong></td>
+                                <td>42</td>
+                                <td>2475066</td>
+                                <td>2475066</td>
+                                <td>
+                                    
+                                        <span class="badge badge-success">Above Average</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                                
+                            <tr>
+                                <td><strong>aspiration</strong></td>
+                                <td>40</td>
+                                <td>1933592</td>
+                                <td>1933592</td>
+                                <td>
+                                    
+                                        <span class="badge badge-warning">Below Average</span>
+                                    
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                
+            </div>
+
+            <!-- Emerging Trends -->
+            <div class="section">
+                <h2>🔥 Emerging Trends</h2>
+                
+                    <div class="no-data">No emerging trends detected</div>
+                
+            </div>
+
+            <!-- Swipe Templates -->
+            <div class="section">
+                <h2>📋 Reusable Hook Templates</h2>
+                <p>Ready-to-use templates extracted from top-performing hooks. Fill in the blanks for instant content hooks.</p>
+                
+                    
+                        
+                        <h3>Curiosity</h3>
+                        
+                            <div class="card">
+                                <strong>Templates:</strong>
+                                <ul>
+                                    
+                                        <li><code>[noun] you didn't know about [topic]</code></li>
+                                    
+                                        <li><code>what [verb] [noun]?</code></li>
+                                    
+                                        <li><code>here's why [claim]</code></li>
+                                    
+                                </ul>
+                                
+                                    <strong style="margin-top: 15px; display: block;">Examples from top performers:</strong>
+                                    <ul>
+                                        
+                                            <li>What if I told you everything you know about [topic] is wrong?</li>
+                                        
+                                            <li>What if I told you everything you know about [topic] is wrong?</li>
+                                        
+                                            <li>Here's why [successful person] does [habit] every day</li>
+                                        
+                                            <li>This ONE trick changed my entire [field] career</li>
+                                        
+                                            <li>This [type] method [claim] in just [timeframe]</li>
+                                        
+                                    </ul>
+                                
+                            </div>
+                        
+                    
+                        
+                        <h3>Shock</h3>
+                        
+                            <div class="card">
+                                <strong>Templates:</strong>
+                                <ul>
+                                    
+                                        <li><code>not what [noun] looks like</code></li>
+                                    
+                                        <li><code>[noun] is [surprising adjective]</code></li>
+                                    
+                                        <li><code>wait till you see [noun]</code></li>
+                                    
+                                </ul>
+                                
+                                    <strong style="margin-top: 15px; display: block;">Examples from top performers:</strong>
+                                    <ul>
+                                        
+                                            <li>Watch what happens when you [action] instead of [alternative]</li>
+                                        
+                                            <li>I learned [lesson] the hard way so you don't have to</li>
+                                        
+                                            <li>⚠️ WARNING: [danger] is more common than you think</li>
+                                        
+                                            <li>What if I told you everything you know about [topic] is wrong?</li>
+                                        
+                                            <li>What if I told you everything you know about [topic] is wrong?</li>
+                                        
+                                    </ul>
+                                
+                            </div>
+                        
+                    
+                        
+                        <h3>Authority</h3>
+                        
+                            <div class="card">
+                                <strong>Templates:</strong>
+                                <ul>
+                                    
+                                        <li><code>as someone who [credential]</code></li>
+                                    
+                                        <li><code>[number] years of [experience]</code></li>
+                                    
+                                        <li><code>research shows [claim]</code></li>
+                                    
+                                </ul>
+                                
+                                    <strong style="margin-top: 15px; display: block;">Examples from top performers:</strong>
+                                    <ul>
+                                        
+                                            <li>Here's why [successful person] does [habit] every day</li>
+                                        
+                                            <li>Watch what happens when you [action] instead of [alternative]</li>
+                                        
+                                            <li>How to [achieve goal] in just [timeframe]</li>
+                                        
+                                            <li>This ONE trick changed my entire [field] career</li>
+                                        
+                                            <li>Watch what happens when you [action] instead of [alternative]</li>
+                                        
+                                    </ul>
+                                
+                            </div>
+                        
+                    
+                        
+                        <h3>Contrarian</h3>
+                        
+                            <div class="card">
+                                <strong>Templates:</strong>
+                                <ul>
+                                    
+                                        <li><code>the truth about [topic]</code></li>
+                                    
+                                        <li><code>you're wrong about [topic]</code></li>
+                                    
+                                        <li><code>myth: [common belief]</code></li>
+                                    
+                                </ul>
+                                
+                                    <strong style="margin-top: 15px; display: block;">Examples from top performers:</strong>
+                                    <ul>
+                                        
+                                            <li>This ONE trick changed my entire [field] career</li>
+                                        
+                                            <li>This [type] method [claim] in just [timeframe]</li>
+                                        
+                                            <li>Here's why [successful person] does [habit] every day</li>
+                                        
+                                            <li>I learned [lesson] the hard way so you don't have to</li>
+                                        
+                                            <li>Watch what happens when you [action] instead of [alternative]</li>
+                                        
+                                    </ul>
+                                
+                            </div>
+                        
+                    
+                        
+                        <h3>Storytelling</h3>
+                        
+                            <div class="card">
+                                <strong>Templates:</strong>
+                                <ul>
+                                    
+                                        <li><code>one day [event]</code></li>
+                                    
+                                        <li><code>my story with [topic]</code></li>
+                                    
+                                        <li><code>back when [time], [event]</code></li>
+                                    
+                                </ul>
+                                
+                                    <strong style="margin-top: 15px; display: block;">Examples from top performers:</strong>
+                                    <ul>
+                                        
+                                            <li>⚠️ WARNING: [danger] is more common than you think</li>
+                                        
+                                            <li>Watch what happens when you [action] instead of [alternative]</li>
+                                        
+                                            <li>Watch what happens when you [action] instead of [alternative]</li>
+                                        
+                                            <li>I learned [lesson] the hard way so you don't have to</li>
+                                        
+                                            <li>Here's why [successful person] does [habit] every day</li>
+                                        
+                                    </ul>
+                                
+                            </div>
+                        
+                    
+                        
+                        <h3>Fear</h3>
+                        
+                            <div class="card">
+                                <strong>Templates:</strong>
+                                <ul>
+                                    
+                                        <li><code>⚠️ warning: [danger]</code></li>
+                                    
+                                        <li><code>don't [action] because [consequence]</code></li>
+                                    
+                                        <li><code>[noun] is more dangerous than [comparison]</code></li>
+                                    
+                                </ul>
+                                
+                                    <strong style="margin-top: 15px; display: block;">Examples from top performers:</strong>
+                                    <ul>
+                                        
+                                            <li>Watch what happens when you [action] instead of [alternative]</li>
+                                        
+                                            <li>The truth about [claim] nobody wants to admit</li>
+                                        
+                                            <li>Watch what happens when you [action] instead of [alternative]</li>
+                                        
+                                            <li>Here's why [successful person] does [habit] every day</li>
+                                        
+                                    </ul>
+                                
+                            </div>
+                        
+                    
+                        
+                        <h3>Aspiration</h3>
+                        
+                            <div class="card">
+                                <strong>Templates:</strong>
+                                <ul>
+                                    
+                                        <li><code>dream of becoming [aspiration]?</code></li>
+                                    
+                                        <li><code>how to achieve [goal]</code></li>
+                                    
+                                        <li><code>from [current] to [aspirational]</code></li>
+                                    
+                                </ul>
+                                
+                                    <strong style="margin-top: 15px; display: block;">Examples from top performers:</strong>
+                                    <ul>
+                                        
+                                            <li>The biggest mistake people make with [topic]</li>
+                                        
+                                            <li>The biggest mistake people make with [topic]</li>
+                                        
+                                            <li>This [type] method [claim] in just [timeframe]</li>
+                                        
+                                            <li>The truth about [claim] nobody wants to admit</li>
+                                        
+                                            <li>The truth about [claim] nobody wants to admit</li>
+                                        
+                                    </ul>
+                                
+                            </div>
+                        
+                    
+                        
+                        <h3>Direct Benefit</h3>
+                        
+                            <div class="card">
+                                <strong>Templates:</strong>
+                                <ul>
+                                    
+                                        <li><code>save [amount] by [action]</code></li>
+                                    
+                                        <li><code>[verb] in [timeframe]</code></li>
+                                    
+                                        <li><code>this one trick [benefit]</code></li>
+                                    
+                                </ul>
+                                
+                                    <strong style="margin-top: 15px; display: block;">Examples from top performers:</strong>
+                                    <ul>
+                                        
+                                            <li>How to [achieve goal] in just [timeframe]</li>
+                                        
+                                            <li>This [type] method [claim] in just [timeframe]</li>
+                                        
+                                            <li>Here's why [successful person] does [habit] every day</li>
+                                        
+                                            <li>⚠️ WARNING: [danger] is more common than you think</li>
+                                        
+                                            <li>This [type] method [claim] in just [timeframe]</li>
+                                        
+                                    </ul>
+                                
+                            </div>
+                        
+                    
+                        
+                        <h3>Mistake Based</h3>
+                        
+                            <div class="card">
+                                <strong>Templates:</strong>
+                                <ul>
+                                    
+                                        <li><code>biggest mistake: [mistake]</code></li>
+                                    
+                                        <li><code>i learned [lesson] the hard way</code></li>
+                                    
+                                        <li><code>never do [action] if [consequence]</code></li>
+                                    
+                                </ul>
+                                
+                                    <strong style="margin-top: 15px; display: block;">Examples from top performers:</strong>
+                                    <ul>
+                                        
+                                            <li>How to [achieve goal] in just [timeframe]</li>
+                                        
+                                            <li>The biggest mistake people make with [topic]</li>
+                                        
+                                            <li>I learned [lesson] the hard way so you don't have to</li>
+                                        
+                                            <li>The biggest mistake people make with [topic]</li>
+                                        
+                                            <li>The biggest mistake people make with [topic]</li>
+                                        
+                                    </ul>
+                                
+                            </div>
+                        
+                    
+                        
+                        <h3>Comparison</h3>
+                        
+                            <div class="card">
+                                <strong>Templates:</strong>
+                                <ul>
+                                    
+                                        <li><code>[option A] vs [option B]</code></li>
+                                    
+                                        <li><code>[noun A] is better than [noun B]</code></li>
+                                    
+                                        <li><code>why [claim] instead of [alternative]</code></li>
+                                    
+                                </ul>
+                                
+                                    <strong style="margin-top: 15px; display: block;">Examples from top performers:</strong>
+                                    <ul>
+                                        
+                                            <li>The biggest mistake people make with [topic]</li>
+                                        
+                                            <li>I learned [lesson] the hard way so you don't have to</li>
+                                        
+                                            <li>Here's why [successful person] does [habit] every day</li>
+                                        
+                                            <li>The biggest mistake people make with [topic]</li>
+                                        
+                                            <li>⚠️ WARNING: [danger] is more common than you think</li>
+                                        
+                                    </ul>
+                                
+                            </div>
+                        
+                    
+                
+            </div>
+
+            <!-- Outlier Analysis -->
+            <div class="section">
+                <h2>⚡ Viral Outliers (2x+ Local Median)</h2>
+                
+                    <p><strong>27 viral outliers detected</strong></p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Hook Type</th>
+                                <th>Views</th>
+                                <th>Local Median</th>
+                                <th>Multiplier</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr>
+                                <td>mistake_based</td>
+                                <td>486087</td>
+                                <td>87376</td>
+                                <td><strong>5.56x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>mistake_based</td>
+                                <td>462918</td>
+                                <td>88867</td>
+                                <td><strong>5.21x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>authority</td>
+                                <td>486930</td>
+                                <td>142397</td>
+                                <td><strong>3.42x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>curiosity</td>
+                                <td>486411</td>
+                                <td>142397</td>
+                                <td><strong>3.42x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>comparison</td>
+                                <td>339637</td>
+                                <td>103897</td>
+                                <td><strong>3.27x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>mistake_based</td>
+                                <td>227495</td>
+                                <td>76048</td>
+                                <td><strong>2.99x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>contrarian</td>
+                                <td>247446</td>
+                                <td>87376</td>
+                                <td><strong>2.83x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>comparison</td>
+                                <td>385567</td>
+                                <td>143012</td>
+                                <td><strong>2.7x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>authority</td>
+                                <td>491249</td>
+                                <td>196633</td>
+                                <td><strong>2.5x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>storytelling</td>
+                                <td>258425</td>
+                                <td>103897</td>
+                                <td><strong>2.49x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>authority</td>
+                                <td>455527</td>
+                                <td>183255</td>
+                                <td><strong>2.49x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>comparison</td>
+                                <td>386619</td>
+                                <td>158377.0</td>
+                                <td><strong>2.44x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>authority</td>
+                                <td>461728</td>
+                                <td>193619</td>
+                                <td><strong>2.38x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>mistake_based</td>
+                                <td>334362</td>
+                                <td>143792</td>
+                                <td><strong>2.33x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>comparison</td>
+                                <td>458817</td>
+                                <td>197382.5</td>
+                                <td><strong>2.32x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>fear</td>
+                                <td>478569</td>
+                                <td>210705</td>
+                                <td><strong>2.27x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>shock</td>
+                                <td>453801</td>
+                                <td>200481</td>
+                                <td><strong>2.26x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>direct_benefit</td>
+                                <td>380185</td>
+                                <td>168216</td>
+                                <td><strong>2.26x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>direct_benefit</td>
+                                <td>483305</td>
+                                <td>216486.5</td>
+                                <td><strong>2.23x</strong></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>shock</td>
+                                <td>416101</td>
+                                <td>194377</td>
+                                <td><strong>2.14x</strong></td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                
+            </div>
+
+            <!-- Recommendations -->
+            <div class="section">
+                <h2>💡 Strategic Recommendations</h2>
+                <ul>
+                    
+                    
+                        <li><strong>Lead with mistake_based:</strong> This hook type consistently outperforms others</li>
+                    
+                    <li><strong>Use templates:</strong> Fill-in-the-blank templates above provide proven frameworks</li>
+                    <li><strong>Test outlier hooks:</strong> Study viral outliers for breakthrough patterns</li>
+                    <li><strong>Monitor time buckets:</strong> Track weekly performance changes in hook effectiveness</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Generated by Viral Hook Intelligence System | Analysis covers all scraped social media content</p>
+        </div>
+    </div>
+</body>
+</html>

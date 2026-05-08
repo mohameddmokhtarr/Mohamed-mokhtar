@@ -1,0 +1,1118 @@
+{
+  "metadata": {
+    "total_hooks": 450,
+    "top_hooks_count": 100
+  },
+  "top_hooks": [
+    {
+      "rank": 1,
+      "hook_text": "This ONE trick changed my entire [field] career",
+      "type": "contrarian",
+      "views": 497757,
+      "engagement": 0,
+      "confidence": 0.6432257861686442
+    },
+    {
+      "rank": 2,
+      "hook_text": "This [type] method [claim] in just [timeframe]",
+      "type": "contrarian",
+      "views": 496229,
+      "engagement": 0,
+      "confidence": 0.6720000443549421
+    },
+    {
+      "rank": 3,
+      "hook_text": "How to [achieve goal] in just [timeframe]",
+      "type": "mistake_based",
+      "views": 496134,
+      "engagement": 0,
+      "confidence": 0.9495148299069105
+    },
+    {
+      "rank": 4,
+      "hook_text": "The biggest mistake people make with [topic]",
+      "type": "aspiration",
+      "views": 495984,
+      "engagement": 0,
+      "confidence": 0.7975224464737225
+    },
+    {
+      "rank": 5,
+      "hook_text": "\u26a0\ufe0f WARNING: [danger] is more common than you think",
+      "type": "storytelling",
+      "views": 495726,
+      "engagement": 0,
+      "confidence": 0.6321576730058616
+    },
+    {
+      "rank": 6,
+      "hook_text": "The biggest mistake people make with [topic]",
+      "type": "comparison",
+      "views": 492413,
+      "engagement": 0,
+      "confidence": 0.6615939708631502
+    },
+    {
+      "rank": 7,
+      "hook_text": "Here's why [successful person] does [habit] every day",
+      "type": "authority",
+      "views": 491249,
+      "engagement": 0,
+      "confidence": 0.6760540385379378
+    },
+    {
+      "rank": 8,
+      "hook_text": "How to [achieve goal] in just [timeframe]",
+      "type": "direct_benefit",
+      "views": 491038,
+      "engagement": 0,
+      "confidence": 0.8907740659910786
+    },
+    {
+      "rank": 9,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "authority",
+      "views": 489662,
+      "engagement": 0,
+      "confidence": 0.7584750699812081
+    },
+    {
+      "rank": 10,
+      "hook_text": "How to [achieve goal] in just [timeframe]",
+      "type": "authority",
+      "views": 488916,
+      "engagement": 0,
+      "confidence": 0.8734114769063159
+    },
+    {
+      "rank": 11,
+      "hook_text": "The biggest mistake people make with [topic]",
+      "type": "mistake_based",
+      "views": 487847,
+      "engagement": 0,
+      "confidence": 0.7458407804034622
+    },
+    {
+      "rank": 12,
+      "hook_text": "I learned [lesson] the hard way so you don't have to",
+      "type": "mistake_based",
+      "views": 487783,
+      "engagement": 0,
+      "confidence": 0.9350880347679154
+    },
+    {
+      "rank": 13,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "shock",
+      "views": 487113,
+      "engagement": 0,
+      "confidence": 0.7221516508244318
+    },
+    {
+      "rank": 14,
+      "hook_text": "This ONE trick changed my entire [field] career",
+      "type": "authority",
+      "views": 486930,
+      "engagement": 0,
+      "confidence": 0.9585705074236626
+    },
+    {
+      "rank": 15,
+      "hook_text": "This [type] method [claim] in just [timeframe]",
+      "type": "direct_benefit",
+      "views": 486781,
+      "engagement": 0,
+      "confidence": 0.9374491061840373
+    },
+    {
+      "rank": 16,
+      "hook_text": "What if I told you everything you know about [topic] is wrong?",
+      "type": "curiosity",
+      "views": 486411,
+      "engagement": 0,
+      "confidence": 0.9397797234059
+    },
+    {
+      "rank": 17,
+      "hook_text": "The biggest mistake people make with [topic]",
+      "type": "mistake_based",
+      "views": 486087,
+      "engagement": 0,
+      "confidence": 0.7737637808109609
+    },
+    {
+      "rank": 18,
+      "hook_text": "Here's why [successful person] does [habit] every day",
+      "type": "direct_benefit",
+      "views": 485921,
+      "engagement": 0,
+      "confidence": 0.7376971511657011
+    },
+    {
+      "rank": 19,
+      "hook_text": "\u26a0\ufe0f WARNING: [danger] is more common than you think",
+      "type": "direct_benefit",
+      "views": 483305,
+      "engagement": 0,
+      "confidence": 0.8073508575763004
+    },
+    {
+      "rank": 20,
+      "hook_text": "I learned [lesson] the hard way so you don't have to",
+      "type": "comparison",
+      "views": 483213,
+      "engagement": 0,
+      "confidence": 0.6032850394490309
+    },
+    {
+      "rank": 21,
+      "hook_text": "Here's why [successful person] does [habit] every day",
+      "type": "comparison",
+      "views": 481981,
+      "engagement": 0,
+      "confidence": 0.9082661186894738
+    },
+    {
+      "rank": 22,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "fear",
+      "views": 480898,
+      "engagement": 0,
+      "confidence": 0.9072145408232264
+    },
+    {
+      "rank": 23,
+      "hook_text": "I learned [lesson] the hard way so you don't have to",
+      "type": "shock",
+      "views": 480169,
+      "engagement": 0,
+      "confidence": 0.7528381925802703
+    },
+    {
+      "rank": 24,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "storytelling",
+      "views": 478731,
+      "engagement": 0,
+      "confidence": 0.6690223437252776
+    },
+    {
+      "rank": 25,
+      "hook_text": "The truth about [claim] nobody wants to admit",
+      "type": "fear",
+      "views": 478569,
+      "engagement": 0,
+      "confidence": 0.8354258517940647
+    },
+    {
+      "rank": 26,
+      "hook_text": "The biggest mistake people make with [topic]",
+      "type": "mistake_based",
+      "views": 478230,
+      "engagement": 0,
+      "confidence": 0.6041699116784276
+    },
+    {
+      "rank": 27,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "authority",
+      "views": 477950,
+      "engagement": 0,
+      "confidence": 0.8289281861091322
+    },
+    {
+      "rank": 28,
+      "hook_text": "The biggest mistake people make with [topic]",
+      "type": "comparison",
+      "views": 477841,
+      "engagement": 0,
+      "confidence": 0.847084961716621
+    },
+    {
+      "rank": 29,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "authority",
+      "views": 475240,
+      "engagement": 0,
+      "confidence": 0.7596213605274675
+    },
+    {
+      "rank": 30,
+      "hook_text": "Here's why [successful person] does [habit] every day",
+      "type": "contrarian",
+      "views": 473147,
+      "engagement": 0,
+      "confidence": 0.7586671940803564
+    },
+    {
+      "rank": 31,
+      "hook_text": "This ONE trick changed my entire [field] career",
+      "type": "mistake_based",
+      "views": 472041,
+      "engagement": 0,
+      "confidence": 0.941696746316236
+    },
+    {
+      "rank": 32,
+      "hook_text": "This [type] method [claim] in just [timeframe]",
+      "type": "direct_benefit",
+      "views": 471291,
+      "engagement": 0,
+      "confidence": 0.8366275879714943
+    },
+    {
+      "rank": 33,
+      "hook_text": "Here's why [successful person] does [habit] every day",
+      "type": "mistake_based",
+      "views": 470118,
+      "engagement": 0,
+      "confidence": 0.9526913172906759
+    },
+    {
+      "rank": 34,
+      "hook_text": "This ONE trick changed my entire [field] career",
+      "type": "mistake_based",
+      "views": 467129,
+      "engagement": 0,
+      "confidence": 0.6417484846330211
+    },
+    {
+      "rank": 35,
+      "hook_text": "I learned [lesson] the hard way so you don't have to",
+      "type": "authority",
+      "views": 466990,
+      "engagement": 0,
+      "confidence": 0.7937374266868584
+    },
+    {
+      "rank": 36,
+      "hook_text": "What if I told you everything you know about [topic] is wrong?",
+      "type": "curiosity",
+      "views": 463347,
+      "engagement": 0,
+      "confidence": 0.9460220252008742
+    },
+    {
+      "rank": 37,
+      "hook_text": "The biggest mistake people make with [topic]",
+      "type": "mistake_based",
+      "views": 462918,
+      "engagement": 0,
+      "confidence": 0.8845019021519654
+    },
+    {
+      "rank": 38,
+      "hook_text": "\u26a0\ufe0f WARNING: [danger] is more common than you think",
+      "type": "shock",
+      "views": 462487,
+      "engagement": 0,
+      "confidence": 0.7825424678579367
+    },
+    {
+      "rank": 39,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "authority",
+      "views": 462352,
+      "engagement": 0,
+      "confidence": 0.6524902986198279
+    },
+    {
+      "rank": 40,
+      "hook_text": "What if I told you everything you know about [topic] is wrong?",
+      "type": "shock",
+      "views": 461959,
+      "engagement": 0,
+      "confidence": 0.9440146336743782
+    },
+    {
+      "rank": 41,
+      "hook_text": "Here's why [successful person] does [habit] every day",
+      "type": "authority",
+      "views": 461728,
+      "engagement": 0,
+      "confidence": 0.7440014400576231
+    },
+    {
+      "rank": 42,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "fear",
+      "views": 461589,
+      "engagement": 0,
+      "confidence": 0.6870202602715112
+    },
+    {
+      "rank": 43,
+      "hook_text": "What if I told you everything you know about [topic] is wrong?",
+      "type": "shock",
+      "views": 461485,
+      "engagement": 0,
+      "confidence": 0.6085091124366466
+    },
+    {
+      "rank": 44,
+      "hook_text": "How to [achieve goal] in just [timeframe]",
+      "type": "shock",
+      "views": 461019,
+      "engagement": 0,
+      "confidence": 0.7811858458956014
+    },
+    {
+      "rank": 45,
+      "hook_text": "I learned [lesson] the hard way so you don't have to",
+      "type": "contrarian",
+      "views": 460282,
+      "engagement": 0,
+      "confidence": 0.8171794615749651
+    },
+    {
+      "rank": 46,
+      "hook_text": "\u26a0\ufe0f WARNING: [danger] is more common than you think",
+      "type": "comparison",
+      "views": 458817,
+      "engagement": 0,
+      "confidence": 0.7509924438418885
+    },
+    {
+      "rank": 47,
+      "hook_text": "Here's why [successful person] does [habit] every day",
+      "type": "curiosity",
+      "views": 456038,
+      "engagement": 0,
+      "confidence": 0.7267792073067922
+    },
+    {
+      "rank": 48,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "authority",
+      "views": 455527,
+      "engagement": 0,
+      "confidence": 0.9108610072141942
+    },
+    {
+      "rank": 49,
+      "hook_text": "I learned [lesson] the hard way so you don't have to",
+      "type": "mistake_based",
+      "views": 454323,
+      "engagement": 0,
+      "confidence": 0.699882908098059
+    },
+    {
+      "rank": 50,
+      "hook_text": "How to [achieve goal] in just [timeframe]",
+      "type": "shock",
+      "views": 453801,
+      "engagement": 0,
+      "confidence": 0.7075038214755791
+    },
+    {
+      "rank": 51,
+      "hook_text": "The biggest mistake people make with [topic]",
+      "type": "aspiration",
+      "views": 451960,
+      "engagement": 0,
+      "confidence": 0.6375902671003422
+    },
+    {
+      "rank": 52,
+      "hook_text": "Here's why [successful person] does [habit] every day",
+      "type": "shock",
+      "views": 449915,
+      "engagement": 0,
+      "confidence": 0.6439655124616822
+    },
+    {
+      "rank": 53,
+      "hook_text": "What if I told you everything you know about [topic] is wrong?",
+      "type": "direct_benefit",
+      "views": 449796,
+      "engagement": 0,
+      "confidence": 0.9238894141623613
+    },
+    {
+      "rank": 54,
+      "hook_text": "\u26a0\ufe0f WARNING: [danger] is more common than you think",
+      "type": "comparison",
+      "views": 449070,
+      "engagement": 0,
+      "confidence": 0.910990648376703
+    },
+    {
+      "rank": 55,
+      "hook_text": "This ONE trick changed my entire [field] career",
+      "type": "curiosity",
+      "views": 445712,
+      "engagement": 0,
+      "confidence": 0.988544728407638
+    },
+    {
+      "rank": 56,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "contrarian",
+      "views": 443449,
+      "engagement": 0,
+      "confidence": 0.9078015771541361
+    },
+    {
+      "rank": 57,
+      "hook_text": "This [type] method [claim] in just [timeframe]",
+      "type": "aspiration",
+      "views": 442383,
+      "engagement": 0,
+      "confidence": 0.9840673860488268
+    },
+    {
+      "rank": 58,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "storytelling",
+      "views": 441360,
+      "engagement": 0,
+      "confidence": 0.6984778575952
+    },
+    {
+      "rank": 59,
+      "hook_text": "This [type] method [claim] in just [timeframe]",
+      "type": "comparison",
+      "views": 439152,
+      "engagement": 0,
+      "confidence": 0.7964757673588074
+    },
+    {
+      "rank": 60,
+      "hook_text": "This [type] method [claim] in just [timeframe]",
+      "type": "curiosity",
+      "views": 438630,
+      "engagement": 0,
+      "confidence": 0.656825133141353
+    },
+    {
+      "rank": 61,
+      "hook_text": "Here's why [successful person] does [habit] every day",
+      "type": "comparison",
+      "views": 438124,
+      "engagement": 0,
+      "confidence": 0.6087931286292656
+    },
+    {
+      "rank": 62,
+      "hook_text": "The truth about [claim] nobody wants to admit",
+      "type": "direct_benefit",
+      "views": 437659,
+      "engagement": 0,
+      "confidence": 0.7751062355013228
+    },
+    {
+      "rank": 63,
+      "hook_text": "How to [achieve goal] in just [timeframe]",
+      "type": "curiosity",
+      "views": 437454,
+      "engagement": 0,
+      "confidence": 0.6228630233262196
+    },
+    {
+      "rank": 64,
+      "hook_text": "\u26a0\ufe0f WARNING: [danger] is more common than you think",
+      "type": "comparison",
+      "views": 436511,
+      "engagement": 0,
+      "confidence": 0.6101441606163116
+    },
+    {
+      "rank": 65,
+      "hook_text": "I learned [lesson] the hard way so you don't have to",
+      "type": "authority",
+      "views": 435851,
+      "engagement": 0,
+      "confidence": 0.9265663964168287
+    },
+    {
+      "rank": 66,
+      "hook_text": "Here's why [successful person] does [habit] every day",
+      "type": "comparison",
+      "views": 435429,
+      "engagement": 0,
+      "confidence": 0.760985662845639
+    },
+    {
+      "rank": 67,
+      "hook_text": "The biggest mistake people make with [topic]",
+      "type": "contrarian",
+      "views": 432425,
+      "engagement": 0,
+      "confidence": 0.741405215102021
+    },
+    {
+      "rank": 68,
+      "hook_text": "The biggest mistake people make with [topic]",
+      "type": "authority",
+      "views": 431931,
+      "engagement": 0,
+      "confidence": 0.8410677643835044
+    },
+    {
+      "rank": 69,
+      "hook_text": "Here's why [successful person] does [habit] every day",
+      "type": "comparison",
+      "views": 431515,
+      "engagement": 0,
+      "confidence": 0.9842519068704361
+    },
+    {
+      "rank": 70,
+      "hook_text": "I learned [lesson] the hard way so you don't have to",
+      "type": "storytelling",
+      "views": 428636,
+      "engagement": 0,
+      "confidence": 0.9199054666781306
+    },
+    {
+      "rank": 71,
+      "hook_text": "Here's why [successful person] does [habit] every day",
+      "type": "storytelling",
+      "views": 428296,
+      "engagement": 0,
+      "confidence": 0.6029599889464553
+    },
+    {
+      "rank": 72,
+      "hook_text": "This [type] method [claim] in just [timeframe]",
+      "type": "storytelling",
+      "views": 426267,
+      "engagement": 0,
+      "confidence": 0.7769036628554866
+    },
+    {
+      "rank": 73,
+      "hook_text": "This ONE trick changed my entire [field] career",
+      "type": "comparison",
+      "views": 425987,
+      "engagement": 0,
+      "confidence": 0.8343667258953331
+    },
+    {
+      "rank": 74,
+      "hook_text": "The truth about [claim] nobody wants to admit",
+      "type": "authority",
+      "views": 425016,
+      "engagement": 0,
+      "confidence": 0.8704415649559885
+    },
+    {
+      "rank": 75,
+      "hook_text": "The truth about [claim] nobody wants to admit",
+      "type": "aspiration",
+      "views": 420325,
+      "engagement": 0,
+      "confidence": 0.8140236924598213
+    },
+    {
+      "rank": 76,
+      "hook_text": "How to [achieve goal] in just [timeframe]",
+      "type": "direct_benefit",
+      "views": 417312,
+      "engagement": 0,
+      "confidence": 0.9529035618449667
+    },
+    {
+      "rank": 77,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "shock",
+      "views": 416101,
+      "engagement": 0,
+      "confidence": 0.9437325529549974
+    },
+    {
+      "rank": 78,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "authority",
+      "views": 415340,
+      "engagement": 0,
+      "confidence": 0.9563578820575969
+    },
+    {
+      "rank": 79,
+      "hook_text": "\u26a0\ufe0f WARNING: [danger] is more common than you think",
+      "type": "contrarian",
+      "views": 413360,
+      "engagement": 0,
+      "confidence": 0.9720503031013861
+    },
+    {
+      "rank": 80,
+      "hook_text": "The truth about [claim] nobody wants to admit",
+      "type": "aspiration",
+      "views": 413228,
+      "engagement": 0,
+      "confidence": 0.6825187568113533
+    },
+    {
+      "rank": 81,
+      "hook_text": "This [type] method [claim] in just [timeframe]",
+      "type": "mistake_based",
+      "views": 411504,
+      "engagement": 0,
+      "confidence": 0.7996621937717072
+    },
+    {
+      "rank": 82,
+      "hook_text": "How to [achieve goal] in just [timeframe]",
+      "type": "contrarian",
+      "views": 411166,
+      "engagement": 0,
+      "confidence": 0.6289335316567043
+    },
+    {
+      "rank": 83,
+      "hook_text": "What if I told you everything you know about [topic] is wrong?",
+      "type": "authority",
+      "views": 410873,
+      "engagement": 0,
+      "confidence": 0.8492674840286792
+    },
+    {
+      "rank": 84,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "direct_benefit",
+      "views": 410104,
+      "engagement": 0,
+      "confidence": 0.8330325921645666
+    },
+    {
+      "rank": 85,
+      "hook_text": "How to [achieve goal] in just [timeframe]",
+      "type": "contrarian",
+      "views": 409512,
+      "engagement": 0,
+      "confidence": 0.8729460060388258
+    },
+    {
+      "rank": 86,
+      "hook_text": "How to [achieve goal] in just [timeframe]",
+      "type": "direct_benefit",
+      "views": 408324,
+      "engagement": 0,
+      "confidence": 0.6280007907909189
+    },
+    {
+      "rank": 87,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "curiosity",
+      "views": 407704,
+      "engagement": 0,
+      "confidence": 0.7736614049437571
+    },
+    {
+      "rank": 88,
+      "hook_text": "The truth about [claim] nobody wants to admit",
+      "type": "comparison",
+      "views": 407700,
+      "engagement": 0,
+      "confidence": 0.8982262180829137
+    },
+    {
+      "rank": 89,
+      "hook_text": "I learned [lesson] the hard way so you don't have to",
+      "type": "contrarian",
+      "views": 401933,
+      "engagement": 0,
+      "confidence": 0.7777813062411003
+    },
+    {
+      "rank": 90,
+      "hook_text": "The truth about [claim] nobody wants to admit",
+      "type": "aspiration",
+      "views": 401661,
+      "engagement": 0,
+      "confidence": 0.6435198525261914
+    },
+    {
+      "rank": 91,
+      "hook_text": "\u26a0\ufe0f WARNING: [danger] is more common than you think",
+      "type": "shock",
+      "views": 401069,
+      "engagement": 0,
+      "confidence": 0.8254901418460463
+    },
+    {
+      "rank": 92,
+      "hook_text": "Here's why [successful person] does [habit] every day",
+      "type": "fear",
+      "views": 395753,
+      "engagement": 0,
+      "confidence": 0.8501780213295708
+    },
+    {
+      "rank": 93,
+      "hook_text": "The truth about [claim] nobody wants to admit",
+      "type": "storytelling",
+      "views": 391284,
+      "engagement": 0,
+      "confidence": 0.9001567842999758
+    },
+    {
+      "rank": 94,
+      "hook_text": "What if I told you everything you know about [topic] is wrong?",
+      "type": "authority",
+      "views": 390582,
+      "engagement": 0,
+      "confidence": 0.8805805180505862
+    },
+    {
+      "rank": 95,
+      "hook_text": "Here's why [successful person] does [habit] every day",
+      "type": "shock",
+      "views": 388577,
+      "engagement": 0,
+      "confidence": 0.8758773049847195
+    },
+    {
+      "rank": 96,
+      "hook_text": "Here's why [successful person] does [habit] every day",
+      "type": "comparison",
+      "views": 386619,
+      "engagement": 0,
+      "confidence": 0.9386223199580674
+    },
+    {
+      "rank": 97,
+      "hook_text": "The truth about [claim] nobody wants to admit",
+      "type": "mistake_based",
+      "views": 386029,
+      "engagement": 0,
+      "confidence": 0.7459580676876225
+    },
+    {
+      "rank": 98,
+      "hook_text": "This [type] method [claim] in just [timeframe]",
+      "type": "comparison",
+      "views": 385567,
+      "engagement": 0,
+      "confidence": 0.6098443762420683
+    },
+    {
+      "rank": 99,
+      "hook_text": "How to [achieve goal] in just [timeframe]",
+      "type": "comparison",
+      "views": 385442,
+      "engagement": 0,
+      "confidence": 0.6388663887069695
+    },
+    {
+      "rank": 100,
+      "hook_text": "Watch what happens when you [action] instead of [alternative]",
+      "type": "authority",
+      "views": 382180,
+      "engagement": 0,
+      "confidence": 0.691183752494991
+    }
+  ],
+  "templates_by_type": {
+    "curiosity": {
+      "templates": [
+        "[noun] you didn't know about [topic]",
+        "what [verb] [noun]?",
+        "here's why [claim]"
+      ],
+      "examples": [
+        "What if I told you everything you know about [topic] is wrong?",
+        "What if I told you everything you know about [topic] is wrong?",
+        "Here's why [successful person] does [habit] every day",
+        "This ONE trick changed my entire [field] career",
+        "This [type] method [claim] in just [timeframe]"
+      ]
+    },
+    "shock": {
+      "templates": [
+        "not what [noun] looks like",
+        "[noun] is [surprising adjective]",
+        "wait till you see [noun]"
+      ],
+      "examples": [
+        "Watch what happens when you [action] instead of [alternative]",
+        "I learned [lesson] the hard way so you don't have to",
+        "\u26a0\ufe0f WARNING: [danger] is more common than you think",
+        "What if I told you everything you know about [topic] is wrong?",
+        "What if I told you everything you know about [topic] is wrong?"
+      ]
+    },
+    "authority": {
+      "templates": [
+        "as someone who [credential]",
+        "[number] years of [experience]",
+        "research shows [claim]"
+      ],
+      "examples": [
+        "Here's why [successful person] does [habit] every day",
+        "Watch what happens when you [action] instead of [alternative]",
+        "How to [achieve goal] in just [timeframe]",
+        "This ONE trick changed my entire [field] career",
+        "Watch what happens when you [action] instead of [alternative]"
+      ]
+    },
+    "contrarian": {
+      "templates": [
+        "the truth about [topic]",
+        "you're wrong about [topic]",
+        "myth: [common belief]"
+      ],
+      "examples": [
+        "This ONE trick changed my entire [field] career",
+        "This [type] method [claim] in just [timeframe]",
+        "Here's why [successful person] does [habit] every day",
+        "I learned [lesson] the hard way so you don't have to",
+        "Watch what happens when you [action] instead of [alternative]"
+      ]
+    },
+    "storytelling": {
+      "templates": [
+        "one day [event]",
+        "my story with [topic]",
+        "back when [time], [event]"
+      ],
+      "examples": [
+        "\u26a0\ufe0f WARNING: [danger] is more common than you think",
+        "Watch what happens when you [action] instead of [alternative]",
+        "Watch what happens when you [action] instead of [alternative]",
+        "I learned [lesson] the hard way so you don't have to",
+        "Here's why [successful person] does [habit] every day"
+      ]
+    },
+    "fear": {
+      "templates": [
+        "\u26a0\ufe0f warning: [danger]",
+        "don't [action] because [consequence]",
+        "[noun] is more dangerous than [comparison]"
+      ],
+      "examples": [
+        "Watch what happens when you [action] instead of [alternative]",
+        "The truth about [claim] nobody wants to admit",
+        "Watch what happens when you [action] instead of [alternative]",
+        "Here's why [successful person] does [habit] every day"
+      ]
+    },
+    "aspiration": {
+      "templates": [
+        "dream of becoming [aspiration]?",
+        "how to achieve [goal]",
+        "from [current] to [aspirational]"
+      ],
+      "examples": [
+        "The biggest mistake people make with [topic]",
+        "The biggest mistake people make with [topic]",
+        "This [type] method [claim] in just [timeframe]",
+        "The truth about [claim] nobody wants to admit",
+        "The truth about [claim] nobody wants to admit"
+      ]
+    },
+    "direct_benefit": {
+      "templates": [
+        "save [amount] by [action]",
+        "[verb] in [timeframe]",
+        "this one trick [benefit]"
+      ],
+      "examples": [
+        "How to [achieve goal] in just [timeframe]",
+        "This [type] method [claim] in just [timeframe]",
+        "Here's why [successful person] does [habit] every day",
+        "\u26a0\ufe0f WARNING: [danger] is more common than you think",
+        "This [type] method [claim] in just [timeframe]"
+      ]
+    },
+    "mistake_based": {
+      "templates": [
+        "biggest mistake: [mistake]",
+        "i learned [lesson] the hard way",
+        "never do [action] if [consequence]"
+      ],
+      "examples": [
+        "How to [achieve goal] in just [timeframe]",
+        "The biggest mistake people make with [topic]",
+        "I learned [lesson] the hard way so you don't have to",
+        "The biggest mistake people make with [topic]",
+        "The biggest mistake people make with [topic]"
+      ]
+    },
+    "comparison": {
+      "templates": [
+        "[option A] vs [option B]",
+        "[noun A] is better than [noun B]",
+        "why [claim] instead of [alternative]"
+      ],
+      "examples": [
+        "The biggest mistake people make with [topic]",
+        "I learned [lesson] the hard way so you don't have to",
+        "Here's why [successful person] does [habit] every day",
+        "The biggest mistake people make with [topic]",
+        "\u26a0\ufe0f WARNING: [danger] is more common than you think"
+      ]
+    }
+  },
+  "fill_in_blanks": {
+    "curiosity": {
+      "templates": [
+        "[noun] you didn't know about [topic]",
+        "what [verb] [noun]?",
+        "here's why [claim]"
+      ],
+      "placeholders": [
+        "claim",
+        "verb",
+        "noun",
+        "topic"
+      ]
+    },
+    "shock": {
+      "templates": [
+        "not what [noun] looks like",
+        "[noun] is [surprising adjective]",
+        "wait till you see [noun]"
+      ],
+      "placeholders": [
+        "noun",
+        "surprising adjective"
+      ]
+    },
+    "authority": {
+      "templates": [
+        "as someone who [credential]",
+        "[number] years of [experience]",
+        "research shows [claim]"
+      ],
+      "placeholders": [
+        "number",
+        "claim",
+        "credential",
+        "experience"
+      ]
+    },
+    "contrarian": {
+      "templates": [
+        "the truth about [topic]",
+        "you're wrong about [topic]",
+        "myth: [common belief]"
+      ],
+      "placeholders": [
+        "common belief",
+        "topic"
+      ]
+    },
+    "storytelling": {
+      "templates": [
+        "one day [event]",
+        "my story with [topic]",
+        "back when [time], [event]"
+      ],
+      "placeholders": [
+        "time",
+        "event",
+        "topic"
+      ]
+    },
+    "fear": {
+      "templates": [
+        "\u26a0\ufe0f warning: [danger]",
+        "don't [action] because [consequence]",
+        "[noun] is more dangerous than [comparison]"
+      ],
+      "placeholders": [
+        "consequence",
+        "danger",
+        "comparison",
+        "noun",
+        "action"
+      ]
+    },
+    "aspiration": {
+      "templates": [
+        "dream of becoming [aspiration]?",
+        "how to achieve [goal]",
+        "from [current] to [aspirational]"
+      ],
+      "placeholders": [
+        "aspirational",
+        "current",
+        "aspiration",
+        "goal"
+      ]
+    },
+    "direct_benefit": {
+      "templates": [
+        "save [amount] by [action]",
+        "[verb] in [timeframe]",
+        "this one trick [benefit]"
+      ],
+      "placeholders": [
+        "timeframe",
+        "verb",
+        "amount",
+        "benefit",
+        "action"
+      ]
+    },
+    "mistake_based": {
+      "templates": [
+        "biggest mistake: [mistake]",
+        "i learned [lesson] the hard way",
+        "never do [action] if [consequence]"
+      ],
+      "placeholders": [
+        "consequence",
+        "mistake",
+        "lesson",
+        "action"
+      ]
+    },
+    "comparison": {
+      "templates": [
+        "[option A] vs [option B]",
+        "[noun A] is better than [noun B]",
+        "why [claim] instead of [alternative]"
+      ],
+      "placeholders": [
+        "alternative",
+        "claim",
+        "option A",
+        "option B",
+        "noun A",
+        "noun B"
+      ]
+    }
+  },
+  "top_performers": {
+    "by_views": [
+      "This ONE trick changed my entire [field] career",
+      "This [type] method [claim] in just [timeframe]",
+      "How to [achieve goal] in just [timeframe]",
+      "The biggest mistake people make with [topic]",
+      "\u26a0\ufe0f WARNING: [danger] is more common than you think",
+      "The biggest mistake people make with [topic]",
+      "Here's why [successful person] does [habit] every day",
+      "How to [achieve goal] in just [timeframe]",
+      "Watch what happens when you [action] instead of [alternative]",
+      "How to [achieve goal] in just [timeframe]"
+    ],
+    "by_engagement": [
+      "This ONE trick changed my entire [field] career",
+      "This [type] method [claim] in just [timeframe]",
+      "How to [achieve goal] in just [timeframe]",
+      "The biggest mistake people make with [topic]",
+      "\u26a0\ufe0f WARNING: [danger] is more common than you think",
+      "The biggest mistake people make with [topic]",
+      "Here's why [successful person] does [habit] every day",
+      "How to [achieve goal] in just [timeframe]",
+      "Watch what happens when you [action] instead of [alternative]",
+      "How to [achieve goal] in just [timeframe]"
+    ],
+    "by_confidence": [
+      "This ONE trick changed my entire [field] career",
+      "This ONE trick changed my entire [field] career",
+      "Watch what happens when you [action] instead of [alternative]",
+      "Watch what happens when you [action] instead of [alternative]",
+      "Here's why [successful person] does [habit] every day",
+      "This [type] method [claim] in just [timeframe]",
+      "\u26a0\ufe0f WARNING: [danger] is more common than you think",
+      "This ONE trick changed my entire [field] career",
+      "\u26a0\ufe0f WARNING: [danger] is more common than you think",
+      "\u26a0\ufe0f WARNING: [danger] is more common than you think"
+    ]
+  }
+}

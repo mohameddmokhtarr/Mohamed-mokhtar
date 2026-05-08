@@ -1,0 +1,1580 @@
+{
+  "per_dataset": {
+    "youtube-competitor2": {
+      "analysis": {
+        "curiosity": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 241147.0,
+            "median_confidence": 0.691235128496211
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 121895.0,
+            "median_confidence": 0.8753809339269792
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "shock": {
+          "last_30_days": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 259749.4,
+            "median_confidence": 0.8832885818924777
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "authority": {
+          "last_30_days": {
+            "count": 3,
+            "avg_engagement": 382773.6666666667,
+            "median_confidence": 0.8805805180505862
+          },
+          "days_31_90": {
+            "count": 4,
+            "avg_engagement": 270328.0,
+            "median_confidence": 0.8594609946030223
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "contrarian": {
+          "last_30_days": {
+            "count": 4,
+            "avg_engagement": 290227.75,
+            "median_confidence": 0.780019966888011
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 317019.5,
+            "median_confidence": 0.6735356769671595
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "storytelling": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 217429.5,
+            "median_confidence": 0.9487670677411253
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 281346.5,
+            "median_confidence": 0.8179653275153239
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "fear": {
+          "last_30_days": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 70945.33333333333,
+            "median_confidence": 0.8445693273655082
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "aspiration": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 293473.0,
+            "median_confidence": 0.8629916209792041
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 228882.0,
+            "median_confidence": 0.6999906190294192
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "direct_benefit": {
+          "last_30_days": {
+            "count": 4,
+            "avg_engagement": 422784.0,
+            "median_confidence": 0.8907740659910786
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 185105.33333333334,
+            "median_confidence": 0.8571366455515312
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "mistake_based": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 285348.0,
+            "median_confidence": 0.941455230553361
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 263329.8,
+            "median_confidence": 0.8464199156140597
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "comparison": {
+          "last_30_days": {
+            "count": 3,
+            "avg_engagement": 248487.66666666666,
+            "median_confidence": 0.9524488190973294
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 187836.33333333334,
+            "median_confidence": 0.6270408772688457
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        }
+      },
+      "emerging": []
+    },
+    "youtube-myhandle": {
+      "analysis": {
+        "curiosity": {
+          "last_30_days": {
+            "count": 4,
+            "avg_engagement": 258328.0,
+            "median_confidence": 0.7082302437459294
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 266862.0,
+            "median_confidence": 0.6954165700791904
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "shock": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 487113.0,
+            "median_confidence": 0.7221516508244318
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 290851.0,
+            "median_confidence": 0.8114490688952334
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "authority": {
+          "last_30_days": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 193265.0,
+            "median_confidence": 0.8293753593013797
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "contrarian": {
+          "last_30_days": {
+            "count": 3,
+            "avg_engagement": 272932.0,
+            "median_confidence": 0.8447245842163688
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 146980.4,
+            "median_confidence": 0.8403403394629845
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "storytelling": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 149152.0,
+            "median_confidence": 0.9474750683594457
+          },
+          "days_31_90": {
+            "count": 1,
+            "avg_engagement": 428296.0,
+            "median_confidence": 0.6029599889464553
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "fear": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 240651.0,
+            "median_confidence": 0.7755544105478278
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 309547.5,
+            "median_confidence": 0.9711604181137037
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "aspiration": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 214579.0,
+            "median_confidence": 0.7535740097787871
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 23241.5,
+            "median_confidence": 0.7208561254149032
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "direct_benefit": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 338703.0,
+            "median_confidence": 0.8330325921645666
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 278886.4,
+            "median_confidence": 0.7316270193100378
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "mistake_based": {
+          "last_30_days": {
+            "count": 4,
+            "avg_engagement": 261063.5,
+            "median_confidence": 0.7458407804034622
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 212068.5,
+            "median_confidence": 0.7604041052451549
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "comparison": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 322483.5,
+            "median_confidence": 0.8144137840749875
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 307592.6666666667,
+            "median_confidence": 0.6101441606163116
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        }
+      },
+      "emerging": []
+    },
+    "youtube-competitor1": {
+      "analysis": {
+        "curiosity": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 234428.0,
+            "median_confidence": 0.8823199355411742
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 106644.8,
+            "median_confidence": 0.8069889124310665
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "shock": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 224139.5,
+            "median_confidence": 0.8332124288438578
+          },
+          "days_31_90": {
+            "count": 6,
+            "avg_engagement": 230790.0,
+            "median_confidence": 0.9266451747174096
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "authority": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 489662.0,
+            "median_confidence": 0.7584750699812081
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 327607.3333333333,
+            "median_confidence": 0.9024923066989189
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "contrarian": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 282039.0,
+            "median_confidence": 0.8564391507531818
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 260087.8,
+            "median_confidence": 0.7084321553983995
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "storytelling": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 346912.5,
+            "median_confidence": 0.8748506627261592
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 53344.0,
+            "median_confidence": 0.9352965745559073
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "fear": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 314293.5,
+            "median_confidence": 0.7169884820267601
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 77692.5,
+            "median_confidence": 0.687413469954223
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "aspiration": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 55877.0,
+            "median_confidence": 0.774643410756156
+          },
+          "days_31_90": {
+            "count": 4,
+            "avg_engagement": 175195.25,
+            "median_confidence": 0.9255011169242137
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "direct_benefit": {
+          "last_30_days": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          },
+          "days_31_90": {
+            "count": 1,
+            "avg_engagement": 380185.0,
+            "median_confidence": 0.6304213763903509
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "mistake_based": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 432751.5,
+            "median_confidence": 0.9495148299069105
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 286310.6,
+            "median_confidence": 0.7607969779234875
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "comparison": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 333671.0,
+            "median_confidence": 0.845245360902627
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 106099.5,
+            "median_confidence": 0.9863571680645874
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        }
+      },
+      "emerging": []
+    },
+    "tiktok-competitor1": {
+      "analysis": {
+        "curiosity": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 368388.5,
+            "median_confidence": 0.9397797234059
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 376163.0,
+            "median_confidence": 0.7267792073067922
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "shock": {
+          "last_30_days": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          },
+          "days_31_90": {
+            "count": 4,
+            "avg_engagement": 307419.5,
+            "median_confidence": 0.915256201284238
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "authority": {
+          "last_30_days": {
+            "count": 3,
+            "avg_engagement": 314488.0,
+            "median_confidence": 0.9585705074236626
+          },
+          "days_31_90": {
+            "count": 4,
+            "avg_engagement": 205185.5,
+            "median_confidence": 0.7948737242409929
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "contrarian": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 98573.0,
+            "median_confidence": 0.9621271053433942
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 315546.6666666667,
+            "median_confidence": 0.7846657929460044
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "storytelling": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 5809.0,
+            "median_confidence": 0.9192478378975322
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 358685.0,
+            "median_confidence": 0.9001567842999758
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "fear": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 108816.0,
+            "median_confidence": 0.6856298249127915
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 207323.66666666666,
+            "median_confidence": 0.779328359317419
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "aspiration": {
+          "last_30_days": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          },
+          "days_31_90": {
+            "count": 4,
+            "avg_engagement": 310675.75,
+            "median_confidence": 0.7975224464737225
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "direct_benefit": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 136958.5,
+            "median_confidence": 0.93968504590159
+          },
+          "days_31_90": {
+            "count": 4,
+            "avg_engagement": 210119.5,
+            "median_confidence": 0.8228956910727296
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "mistake_based": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 29745.0,
+            "median_confidence": 0.8581822736884952
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 326810.3333333333,
+            "median_confidence": 0.7996621937717072
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "comparison": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 386619.0,
+            "median_confidence": 0.9386223199580674
+          },
+          "days_31_90": {
+            "count": 6,
+            "avg_engagement": 232442.83333333334,
+            "median_confidence": 0.8175287902120756
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        }
+      },
+      "emerging": []
+    },
+    "tiktok-myhandle": {
+      "analysis": {
+        "curiosity": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 254354.0,
+            "median_confidence": 0.81619591764141
+          },
+          "days_31_90": {
+            "count": 7,
+            "avg_engagement": 273227.71428571426,
+            "median_confidence": 0.7226643951506513
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "shock": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 296888.0,
+            "median_confidence": 0.9742703621356648
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 274274.0,
+            "median_confidence": 0.6320254744995251
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "authority": {
+          "last_30_days": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 256068.5,
+            "median_confidence": 0.9563578820575969
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "contrarian": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 200481.0,
+            "median_confidence": 0.661998198547644
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 276773.0,
+            "median_confidence": 0.7870422410050874
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "storytelling": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 103505.0,
+            "median_confidence": 0.7205600659382703
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 170888.0,
+            "median_confidence": 0.8289175020050128
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "fear": {
+          "last_30_days": {
+            "count": 3,
+            "avg_engagement": 226134.33333333334,
+            "median_confidence": 0.8611288515271798
+          },
+          "days_31_90": {
+            "count": 4,
+            "avg_engagement": 255465.0,
+            "median_confidence": 0.9072145408232264
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "aspiration": {
+          "last_30_days": {
+            "count": 3,
+            "avg_engagement": 230835.66666666666,
+            "median_confidence": 0.870385105517337
+          },
+          "days_31_90": {
+            "count": 1,
+            "avg_engagement": 71714.0,
+            "median_confidence": 0.816437944697252
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "direct_benefit": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 408324.0,
+            "median_confidence": 0.6280007907909189
+          },
+          "days_31_90": {
+            "count": 4,
+            "avg_engagement": 318161.75,
+            "median_confidence": 0.9238894141623613
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "mistake_based": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 419697.5,
+            "median_confidence": 0.7188701945758151
+          },
+          "days_31_90": {
+            "count": 7,
+            "avg_engagement": 260896.7142857143,
+            "median_confidence": 0.7781873980872609
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "comparison": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 357465.0,
+            "median_confidence": 0.6567998416909407
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 470399.0,
+            "median_confidence": 0.9082661186894738
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        }
+      },
+      "emerging": []
+    },
+    "instagram-competitor1": {
+      "analysis": {
+        "curiosity": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 282952.0,
+            "median_confidence": 0.860438385995836
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 202968.2,
+            "median_confidence": 0.8913002298309608
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "shock": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 328795.0,
+            "median_confidence": 0.8810508744760566
+          },
+          "days_31_90": {
+            "count": 1,
+            "avg_engagement": 461959.0,
+            "median_confidence": 0.9440146336743782
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "authority": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 164657.0,
+            "median_confidence": 0.9440343480747047
+          },
+          "days_31_90": {
+            "count": 1,
+            "avg_engagement": 488916.0,
+            "median_confidence": 0.8734114769063159
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "contrarian": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 345412.5,
+            "median_confidence": 0.7820836612318723
+          },
+          "days_31_90": {
+            "count": 6,
+            "avg_engagement": 207363.66666666666,
+            "median_confidence": 0.6724171110074001
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "storytelling": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 66492.0,
+            "median_confidence": 0.8413153577439278
+          },
+          "days_31_90": {
+            "count": 4,
+            "avg_engagement": 264752.25,
+            "median_confidence": 0.7501640557087712
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "fear": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 178091.0,
+            "median_confidence": 0.9715297761225204
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 259766.0,
+            "median_confidence": 0.9540975911209668
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "aspiration": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 216048.5,
+            "median_confidence": 0.9462360495503008
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 347453.0,
+            "median_confidence": 0.8111912528574137
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "direct_benefit": {
+          "last_30_days": {
+            "count": 4,
+            "avg_engagement": 309897.5,
+            "median_confidence": 0.7376971511657011
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 188496.33333333334,
+            "median_confidence": 0.6807250726059539
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "mistake_based": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 304278.5,
+            "median_confidence": 0.8597231650131801
+          },
+          "days_31_90": {
+            "count": 1,
+            "avg_engagement": 260755.0,
+            "median_confidence": 0.7111122738097344
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "comparison": {
+          "last_30_days": {
+            "count": 3,
+            "avg_engagement": 184814.33333333334,
+            "median_confidence": 0.8725412149789007
+          },
+          "days_31_90": {
+            "count": 4,
+            "avg_engagement": 222597.25,
+            "median_confidence": 0.847084961716621
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        }
+      },
+      "emerging": []
+    },
+    "instagram-competitor2": {
+      "analysis": {
+        "curiosity": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 89248.0,
+            "median_confidence": 0.676308942643032
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 288141.6666666667,
+            "median_confidence": 0.9513385801885896
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "shock": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 196588.0,
+            "median_confidence": 0.6742735737899966
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 283222.0,
+            "median_confidence": 0.7811858458956014
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "authority": {
+          "last_30_days": {
+            "count": 4,
+            "avg_engagement": 344278.25,
+            "median_confidence": 0.7613614301812945
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 331001.5,
+            "median_confidence": 0.7239028441918569
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "contrarian": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 211318.5,
+            "median_confidence": 0.8186637457484621
+          },
+          "days_31_90": {
+            "count": 1,
+            "avg_engagement": 294394.0,
+            "median_confidence": 0.8965289078334022
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "storytelling": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 233024.0,
+            "median_confidence": 0.6395873386612606
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 259104.2,
+            "median_confidence": 0.8363661633272036
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "fear": {
+          "last_30_days": {
+            "count": 3,
+            "avg_engagement": 173916.0,
+            "median_confidence": 0.7881341438297421
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 190323.66666666666,
+            "median_confidence": 0.8068417192574139
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "aspiration": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 422022.0,
+            "median_confidence": 0.9840673860488268
+          },
+          "days_31_90": {
+            "count": 4,
+            "avg_engagement": 123934.25,
+            "median_confidence": 0.917202438254236
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "direct_benefit": {
+          "last_30_days": {
+            "count": 4,
+            "avg_engagement": 129901.25,
+            "median_confidence": 0.8201571062741095
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 362448.5,
+            "median_confidence": 0.8944873653333665
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "mistake_based": {
+          "last_30_days": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 281192.0,
+            "median_confidence": 0.7459580676876225
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "comparison": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 407700.0,
+            "median_confidence": 0.8982262180829137
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 315525.6,
+            "median_confidence": 0.9221625670271366
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        }
+      },
+      "emerging": []
+    },
+    "tiktok-competitor2": {
+      "analysis": {
+        "curiosity": {
+          "last_30_days": {
+            "count": 3,
+            "avg_engagement": 233932.0,
+            "median_confidence": 0.76265167055655
+          },
+          "days_31_90": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "shock": {
+          "last_30_days": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 291316.4,
+            "median_confidence": 0.6747784846465122
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "authority": {
+          "last_30_days": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 193091.33333333334,
+            "median_confidence": 0.9148709166893427
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "contrarian": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 294394.0,
+            "median_confidence": 0.7824155211811739
+          },
+          "days_31_90": {
+            "count": 6,
+            "avg_engagement": 235541.83333333334,
+            "median_confidence": 0.8225222983562321
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "storytelling": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 441360.0,
+            "median_confidence": 0.6984778575952
+          },
+          "days_31_90": {
+            "count": 4,
+            "avg_engagement": 158751.5,
+            "median_confidence": 0.8184828595052175
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "fear": {
+          "last_30_days": {
+            "count": 3,
+            "avg_engagement": 260089.66666666666,
+            "median_confidence": 0.6232271368214338
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 289035.6666666667,
+            "median_confidence": 0.7637390622097103
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "aspiration": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 152750.0,
+            "median_confidence": 0.8598981282748308
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 246188.5,
+            "median_confidence": 0.812360929329074
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "direct_benefit": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 471291.0,
+            "median_confidence": 0.8366275879714943
+          },
+          "days_31_90": {
+            "count": 1,
+            "avg_engagement": 78578.0,
+            "median_confidence": 0.7845827532315194
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "mistake_based": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 374474.0,
+            "median_confidence": 0.9350880347679154
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 319267.0,
+            "median_confidence": 0.9009526145695701
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "comparison": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 449070.0,
+            "median_confidence": 0.910990648376703
+          },
+          "days_31_90": {
+            "count": 7,
+            "avg_engagement": 293589.14285714284,
+            "median_confidence": 0.8196423301732911
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        }
+      },
+      "emerging": []
+    },
+    "instagram-myhandle": {
+      "analysis": {
+        "curiosity": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 407704.0,
+            "median_confidence": 0.7736614049437571
+          },
+          "days_31_90": {
+            "count": 3,
+            "avg_engagement": 273762.0,
+            "median_confidence": 0.7132746305112497
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "shock": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 278453.0,
+            "median_confidence": 0.9203507469148052
+          },
+          "days_31_90": {
+            "count": 1,
+            "avg_engagement": 13199.0,
+            "median_confidence": 0.913186444852655
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "authority": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 447141.5,
+            "median_confidence": 0.8410677643835044
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 279162.0,
+            "median_confidence": 0.7596213605274675
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "contrarian": {
+          "last_30_days": {
+            "count": 2,
+            "avg_engagement": 143306.5,
+            "median_confidence": 0.9181483970792772
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 368633.0,
+            "median_confidence": 0.9616867769559088
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "storytelling": {
+          "last_30_days": {
+            "count": 3,
+            "avg_engagement": 181464.66666666666,
+            "median_confidence": 0.815652746787038
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 291658.0,
+            "median_confidence": 0.7483895269117516
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "fear": {
+          "last_30_days": {
+            "count": 3,
+            "avg_engagement": 71500.33333333333,
+            "median_confidence": 0.8384549828828767
+          },
+          "days_31_90": {
+            "count": 2,
+            "avg_engagement": 102455.5,
+            "median_confidence": 0.9530327063839996
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "aspiration": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 28058.0,
+            "median_confidence": 0.9327394089965146
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 264915.6,
+            "median_confidence": 0.8741512671099188
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "direct_benefit": {
+          "last_30_days": {
+            "count": 1,
+            "avg_engagement": 45970.0,
+            "median_confidence": 0.7928768029122488
+          },
+          "days_31_90": {
+            "count": 1,
+            "avg_engagement": 255922.0,
+            "median_confidence": 0.771068850958474
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "mistake_based": {
+          "last_30_days": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          },
+          "days_31_90": {
+            "count": 5,
+            "avg_engagement": 298077.6,
+            "median_confidence": 0.8763372611923594
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        },
+        "comparison": {
+          "last_30_days": {
+            "count": 3,
+            "avg_engagement": 298291.6666666667,
+            "median_confidence": 0.8753598821280206
+          },
+          "days_31_90": {
+            "count": 7,
+            "avg_engagement": 275227.85714285716,
+            "median_confidence": 0.6581944591461699
+          },
+          "days_91_plus": {
+            "count": 0,
+            "avg_engagement": 0,
+            "median_confidence": 0
+          }
+        }
+      },
+      "emerging": []
+    }
+  },
+  "all_emerging": []
+}
