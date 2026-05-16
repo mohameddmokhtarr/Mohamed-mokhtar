@@ -5,6 +5,7 @@ Generate comprehensive HTML report
 import json
 from pathlib import Path
 from datetime import datetime
+from typing import Dict
 from jinja2 import Template
 
 from config import HOOKS_DIR, REPORTS_DIR

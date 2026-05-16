@@ -28,9 +28,9 @@ APIFY_TIMEOUT_SECONDS = int(os.getenv('APIFY_TIMEOUT_SECONDS', 3600))
 
 # Apify Actor IDs
 APIFY_ACTORS = {
-    'tiktok': 'clockworks/free-tiktok-scraper',
-    'instagram': 'apify/instagram-reel-scraper',
-    'youtube': 'streamers/youtube-scraper'
+    'tiktok': 'clockworks~free-tiktok-scraper',
+    'instagram': 'apify~instagram-profile-scraper',
+    'youtube': 'streamers~youtube-scraper'
 }
 
 # Content creators to scrape

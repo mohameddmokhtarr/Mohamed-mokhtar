@@ -129,23 +129,25 @@ class ContentScraper:
 
     def _get_actor_input(self, platform: str, handle: str) -> Dict[str, Any]:
         """Get input configuration for each platform's actor"""
+        clean_handle = handle.lstrip('@')
+
         if platform == 'tiktok':
             return {
-                'usernames': [handle.lstrip('@')],
-                'resultsLimit': 100,
-                'shouldDownloadVideos': False,
-                'shouldDownloadCovers': False
+                'startUrls': [{'url': f'https://www.tiktok.com/@{clean_handle}'}],
+                'maxItems': 100,
+                'downloadVideos': False,
+                'downloadCovers': False
             }
         elif platform == 'instagram':
             return {
-                'usernames': [handle.lstrip('@')],
-                'resultsLimit': 100,
-                'shouldDownloadVideos': False
+                'startUrls': [{'url': f'https://www.instagram.com/{clean_handle}/'}],
+                'maxItems': 100,
+                'downloadVideos': False
             }
         elif platform == 'youtube':
             return {
-                'channelUrls': [f'https://www.youtube.com/@{handle.lstrip("@")}'],
-                'resultsLimit': 100
+                'channelUrls': [f'https://www.youtube.com/@{clean_handle}'],
+                'maxItems': 100
             }
         else:
             raise ValueError(f"Unknown platform: {platform}")
