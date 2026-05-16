@@ -1,26 +1,26 @@
 """
 Phase 3: Hook Classification
-Classify hooks using Anthropic Claude API
+Classify hooks using Ollama (free local model)
 """
 import json
 from pathlib import Path
 from typing import Dict, Any, List
-from anthropic import Anthropic
+import requests
 
-from config import HOOKS_DIR, ANTHROPIC_API_KEY, CLAUDE_MODEL, HOOK_TYPES, TONE_TYPES
+from config import HOOKS_DIR, HOOK_TYPES, TONE_TYPES
 from logger import classifier_logger, error_logger
 
 
 class HookClassifier:
-    """Classify hooks using Claude API"""
+    """Classify hooks using Ollama"""
 
-    def __init__(self):
-        self.client = Anthropic(api_key=ANTHROPIC_API_KEY)
-        self.model = CLAUDE_MODEL
+    def __init__(self, ollama_host: str = "http://localhost:11434"):
+        self.ollama_host = ollama_host
+        self.model = "mistral"
         self.classified_hooks = []
 
     def classify_hook(self, hook: Dict[str, Any]) -> Dict[str, Any]:
-        """Classify a single hook using Claude"""
+        """Classify a single hook using Ollama"""
         hook_text = hook.get('hook_text', '')
 
         if not hook_text:
@@ -42,15 +42,23 @@ Provide a JSON response with:
 Format as valid JSON only, no markdown."""
 
         try:
-            response = self.client.messages.create(
-                model=self.model,
-                max_tokens=500,
-                messages=[
-                    {'role': 'user', 'content': prompt}
-                ]
+            # Call Ollama API
+            response = requests.post(
+                f"{self.ollama_host}/api/generate",
+                json={
+                    "model": self.model,
+                    "prompt": prompt,
+                    "stream": False,
+                    "temperature": 0.3
+                },
+                timeout=60
             )
 
-            response_text = response.content[0].text.strip()
+            if response.status_code != 200:
+                raise Exception(f"Ollama API error: {response.status_code}")
+
+            response_data = response.json()
+            response_text = response_data.get("response", "").strip()
 
             # Parse JSON response
             try:
@@ -64,18 +72,71 @@ Format as valid JSON only, no markdown."""
                     response_text = response_text.split('```')[1].split('```')[0].strip()
                     classification = json.loads(response_text)
                 else:
-                    raise
+                    # If JSON parsing fails, provide a default classification
+                    classifier_logger.warning(f"Could not parse JSON response: {response_text[:100]}")
+                    return self._get_default_classification(hook_text)
 
             return classification
 
+        except requests.exceptions.ConnectionError:
+            error_logger.error(f"Could not connect to Ollama at {self.ollama_host}")
+            error_logger.error("Make sure Ollama is running: ollama serve")
+            return self._get_default_classification(hook_text)
         except Exception as e:
             error_logger.error(f"Classification failed for hook: {str(e)}")
-            return None
+            return self._get_default_classification(hook_text)
+
+    @staticmethod
+    def _get_default_classification(hook_text: str) -> Dict[str, Any]:
+        """Return a default classification based on content analysis"""
+        hook_lower = hook_text.lower()
+
+        # Simple heuristic-based classification
+        if any(word in hook_lower for word in ['did you know', 'know what', 'know this', 'did you']):
+            primary = 'curiosity'
+        elif any(word in hook_lower for word in ['shocking', 'unbelievable', 'crazy', 'insane', 'wow']):
+            primary = 'shock'
+        elif any(word in hook_lower for word in ['expert', 'pro', 'years of', 'proven', 'research']):
+            primary = 'authority'
+        elif any(word in hook_lower for word in ['mistake', 'wrong', 'fail', 'failing']):
+            primary = 'mistake_based'
+        elif any(word in hook_lower for word in ['vs', 'instead of', 'unlike', 'different']):
+            primary = 'comparison'
+        elif any(word in hook_lower for word in ['dream', 'want', 'achieve', 'goal', 'success']):
+            primary = 'aspiration'
+        elif any(word in hook_lower for word in ['problem', 'struggle', 'pain', 'suffer', 'hard']):
+            primary = 'fear'
+        elif any(word in hook_lower for word in ['here', 'check out', 'see how', 'learn', 'discover']):
+            primary = 'direct_benefit'
+        elif any(word in hook_lower for word in ['everyone', 'people', 'everyone else', 'typical']):
+            primary = 'contrarian'
+        else:
+            primary = 'storytelling'
+
+        # Determine tone based on length and punctuation
+        if '!' in hook_text:
+            tone = 'urgent'
+        elif '?' in hook_text:
+            tone = 'conversational'
+        elif len(hook_text) > 150:
+            tone = 'informative'
+        else:
+            tone = 'conversational'
+
+        return {
+            'primary_hook_type': primary,
+            'secondary_hook_types': [],
+            'tone': tone,
+            'predicted_engagement': 'medium',
+            'key_elements': ['content-driven'],
+            'improvement_suggestion': None,
+            'classification_method': 'heuristic'
+        }
 
     def process_hooks(self) -> Dict[str, Any]:
         """Process all extracted hooks"""
         classifier_logger.info("="*60)
-        classifier_logger.info("PHASE 3: HOOK CLASSIFICATION")
+        classifier_logger.info("PHASE 3: HOOK CLASSIFICATION (Using Ollama)")
         classifier_logger.info("="*60)
 
         hooks_file = HOOKS_DIR / 'all_hooks.json'
@@ -97,7 +158,8 @@ Format as valid JSON only, no markdown."""
             'tone_distribution': {}
         }
 
-        classifier_logger.info(f"Classifying {len(hooks)} hooks...")
+        classifier_logger.info(f"Classifying {len(hooks)} hooks using Ollama...")
+        classifier_logger.info("(Make sure Ollama is running: ollama serve)")
 
         for i, hook in enumerate(hooks):
             if i % 5 == 0:
