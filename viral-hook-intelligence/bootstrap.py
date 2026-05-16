@@ -115,7 +115,7 @@ class BootstrapVerifier:
         load_dotenv(env_file)
 
         required_vars = {
-            'OPENAI_API_KEY': 'OpenAI API Key',
+            'ANTHROPIC_API_KEY': 'Anthropic Claude API Key',
             'APIFY_API_TOKEN': 'Apify API Token'
         }
 
@@ -172,12 +172,10 @@ class BootstrapVerifier:
             'requests': 'requests',
             'pandas': 'pandas',
             'numpy': 'numpy',
-            'openai': 'openai',
+            'anthropic': 'anthropic',
             'jinja2': 'jinja2',
-            'yt_dlp': 'yt-dlp',
             'sklearn': 'scikit-learn',
             'matplotlib': 'matplotlib',
-            'playwright': 'playwright',
             'apify_client': 'apify-client'
         }
 
@@ -195,26 +193,28 @@ class BootstrapVerifier:
     def check_api_connectivity(self):
         self.print_header("API CONNECTIVITY CHECK")
 
-        import openai
+        from anthropic import Anthropic
 
         load_dotenv(self.project_root / '.env')
-        api_key = os.getenv('OPENAI_API_KEY')
+        api_key = os.getenv('ANTHROPIC_API_KEY')
 
-        if not api_key or api_key.startswith('your-') or api_key.startswith('sk-'):
-            # Only test if key looks valid
-            if api_key and not api_key.startswith('your-'):
+        if not api_key or api_key.startswith('your-') or not api_key.startswith('sk-ant-'):
+            if api_key and api_key.startswith('sk-ant-'):
                 try:
-                    openai.api_key = api_key
-                    client = openai.OpenAI(api_key=api_key)
-                    # Test with a simple list models call
-                    models = client.models.list()
-                    self.log_success("OpenAI API connectivity: OK")
+                    client = Anthropic(api_key=api_key)
+                    # Test with a simple message call
+                    response = client.messages.create(
+                        model='claude-haiku-4-5-20251001',
+                        max_tokens=10,
+                        messages=[{'role': 'user', 'content': 'test'}]
+                    )
+                    self.log_success("Anthropic Claude API connectivity: OK")
                     return True
                 except Exception as e:
-                    self.log_warning(f"OpenAI API test failed (key may be invalid): {str(e)}")
+                    self.log_warning(f"Anthropic API test failed (key may be invalid): {str(e)}")
                     return False
             else:
-                self.log_warning("OpenAI API key not configured (skipping connectivity test)")
+                self.log_warning("Anthropic API key not configured (skipping connectivity test)")
                 return None
 
         return None
